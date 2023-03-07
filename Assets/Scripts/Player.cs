@@ -13,7 +13,8 @@ public class Player : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public SwordBehavior weapon;
     public bool inBattle = false;
-    private int health = 5;
+    private int health = 5; 
+    public bool canDialogue;
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
@@ -46,6 +47,14 @@ public class Player : MonoBehaviour
          else if (Input.GetKey ("a")) {
              pos.x -= speed * Time.deltaTime;
          } 
+         if (Input.GetKey("e")) {
+            if (canDialogue) {
+                foreach (Collider2D i in Physics2D.OverlapCircleAll(gameObject.transform.position, 0.2f)) {   
+            if (i.gameObject.tag == "Talkable")
+                i.gameObject.SendMessage("startDialogue");
+        }
+            }
+         }
          //if (inBattle) {
             // if (Input.GetKey("space")) {
             //     if (gameObject.GetComponentInParent<Rigidbody2D>().velocity.y != 0) {
