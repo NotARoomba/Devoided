@@ -325,6 +325,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5555292240984817729, guid: 0393fa4a96848400c9d3cffbf607a112, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -5555292240984817729, guid: 0393fa4a96848400c9d3cffbf607a112, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: -5555292240984817729, guid: 0393fa4a96848400c9d3cffbf607a112, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.126
+      objectReference: {fileID: 0}
     - target: {fileID: -5314770539955382251, guid: 0393fa4a96848400c9d3cffbf607a112, type: 3}
       propertyPath: m_Name
       value: neoncityfinal
