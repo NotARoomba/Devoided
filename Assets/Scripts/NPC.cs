@@ -26,6 +26,6 @@ public class NPC : MonoBehaviour
         }
     }
     void startDialogue() {
-        dialogueRunner.StartDialogue("Starting");
+        dialogueRunner.StartDialogue("Space");
     }
 }

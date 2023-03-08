@@ -8,6 +8,6 @@ public class PlayButton : MainMenuButton
 {
 
     public override void doStuff() {
-        SceneManager.LoadScene("Game", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Space", LoadSceneMode.Single);
     }
 }
