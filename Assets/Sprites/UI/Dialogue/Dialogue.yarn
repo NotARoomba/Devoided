@@ -1,0 +1,348 @@
+title: Starting
+---
+//place: Space
+//fadeIn
+Unknown: En una epoca de auge de la exploracion espacial, un ingeniero cuantico viajaba por el espacio-tiempo en busqueda de reliquias de la antigua Tierra.
+Unknown: Conseguir una misteriosa baraja era su objetivo, ya que segun leyendas contenía el secreto de la existencia del universo.
+Unknown: Neom, con su reloj y nave espacial, es un descendiente de la ultima generacion de la antigua Tierra y logra conseguir esta baraja de cartas.
+
+//scene change to spacecraft
+
+Neom: Por fin, lo he conseguido... 
+Neom: Las seis cartas de la baraja... 
+Neom: El Mago, El Emperador, La Muerte, El Mundo, El Sol y El...
+
+//CRASH!!
+
+Neom: ¿¡Que esta pasando!? ¡Sistema, reinicia motores!
+Sistema: Error. Error. Error. Interferencia no reconocida. Aproximacion del Black Hole.
+Neom: Que-
+
+//todo se vuelve negro y suena un pum
+
+Neom: ...
+Neom: ..¿Donde estoy?
+Neom: ¡Sistema!
+
+//se escucha un bullicio
+
+Neom: Esto...
+Neom: ¿Es la Tierra?
+Neom: ¡Las cartas! ¿Donde esta la baraja? No puede ser...
+Neom: Choque contra un Black Hole... Regresare en el tiempo para esquivarlo.
+
+//se muestra el reloj
+
+Neom: ¡¿Se rompio?! ¿Como regresare al presente?
+Neom: Al menos conservo mi bolsa espacial...
+Neom: Oh, aun tengo una carta. Claro que tenía que ser esta...
+Neom: Pero bueno, ¿Esto es en verdad la Tierra?
+Neom: Segun libros antiguos, este debería ser el reino de Saud. Pero aun no esta destruido, ni son ruinas.
+Neom: La carta del Mago fue encontrada por primera vez en una tumba en este reino. ¿Sera que su dueno aun esta vivo?
+
+//titulo mission 1- El Mago
+//descripcion: Busca alrededor de la capital de Saud pistas de la carta
+
+
+//Neom llega a la consola y esta se prende
+Consola: Ingrese usuario.
+
+//El player tiene que ingresar "The Magician"
+Consola: Usuario correcto. Ingresar planeta.
+
+//El player tiene que ingresar "Mercurio"
+Consola: Correcto. Iniciando teletransportacion.
+Anuncio: Mision completada.
+
+===
+title: The_Magician
+
+---
+//<<fadeIn>>
+
+Neom: ¿Ah?
+
+Mago:  ¿Un intruso? Esto es algo muy inusual...
+Neom: ¿Eres tu... El Mago?
+
+Mago: Ha ha ha. Así es, aunque hace mucho que alguien no me llama por ese nombre.
+Mago: Tienes un aspecto extrano... No eres de aquí.
+
+Neom: Me he perdido en el espacio-tiempo. Este es el pasado de mi linea de tiempo, y no puedo regresar al presente. Mi reloj se averio.
+
+Mago: ¡Ah! Un viajador del tiempo. Pero que problema en el que estas metido. Alterando nuestro universo.
+Mago: Por personas como tu es que se destruyen galaxias enteras.
+
+Neom: ...
+
+Mago: Prestame tu reloj, creo que aun es posible arreglarlo.
+
+Neom: ¿Enserio? Aquí tienes.
+
+//Se acerca y le da el reloj
+
+Mago: לברכת השמש... ההילה שבעולם...
+Mago: תן לעבר להפוך להווה
+
+//el reloj se arreglar
+
+Mago: Conservo la mitad de su poder... Pero hay un tipo de interferencia que no me permite arreglarlo por completo.
+Neom: ¿Entonces?
+Mago: Podras viajar libremente entre este pasado y un futuro que no conoces. Pero hay un rango de tiempo al que aun no puedes entrar.
+
+Neom: (Probablemente es cuando choque con el Black Hole. ¿Fue aquella interferencia que detecto el sistema?)
+Neom: Igualmente gracias. ¡Ah! Si eres el Mago, ¿no tendras una de las cartas de esa baraja?
+
+Mago: ¿Como sabes eso? Es historia perdida. Ah verdad, eres un viajador del tiempo. 
+Mago: Veo que te interesa, pero es una reliquia de mi maestro. No te la puedo dar facilmente.
+Mago: Aunque podras esperar un poco y probablemente estara en mi tumba ha ha ha.
+
+Neom: ¿A que te refieres?
+
+Mago: No tengo mucho tiempo... Sufro de Oyk. Como sabras, es incurable.
+
+Neom: Incurable en este presente... pero no en el mío.
+Neom: Si no estoy mal, la pocion se encuentra en el futuro de Saud, luego de su destruccion.
+Neom: Necesito encontrar el loto infinito para hacerla.
+Neom: Si logro encontrar la cura para tu enfermedad, ¿me daras la carta?
+
+Mago: ...
+Mago: Si es así... creo que sería posible.
+
+Neom: No se diga mas. 
+
+//Mission 2 - La Cura
+//descripcion: Encuentra el loto infinito en el futuro para la curar al Mago
+
+Mago: Podrías usar ese reloj... Eso creo.
+
+//Neom entra en el panel del reloj y tiene que seleccionar viaje al futuro.
+//Scene change a ancient ruinas
+
+Neom: Con que estas son las ruinas de Saud. 
+Neom: Tengo que encontrar ese loto lo antes posible.
+
+//encuentra loto, lo toma
+Neom: ¡Esta es! Lo guardare en mi bolsa espacial. Ahora regresare al pasado.
+
+//regresa al pasado undiendo en el reloj
+//devuelta en la neon city
+
+Mago: Aunque podrías perderte en el espacio tiempo de nuevo...
+
+Neom: Ya la tengo.
+
+Mago: ...¿Es enserio? No han pasado ni dos minutos.
+
+Neom: Pues para mi fueron unas cuantas horas... Aquí tienes.
+
+//Announcement Mission complete!
+Anuncio: Mision completada.
+
+
+Mago: Necesitare otros cuantos días para recuperarme, pero no siento mucho el dolor ahora.
+Mago: Me has salvado la vida. Toma esto, te la mereces.
+
+//Mago le da la carta. Carta adquired!
+Anuncio: ¡Carta adquerida! El Mago.
+
+
+Neom: Ahora el resto...
+
+Mago: ¿Enserio estas tratando de encontrar la baraja? No es algo de lo que tenga mucho conocimiento...
+Mago: Pero dicen que una de las posesiones mas preciadas del Emperador Saud es algo parecido a una carta. 
+Mago: Aunque es casi imposible verlo, pues controla el reino mas poderoso de esta galaxia.
+
+Neom: Podría tratar de encontrarlo en el futuro... No tendría su reino y sería mas facil acercarsele. 
+Mago: Si piensas volver al futuro, llevate esto. No es mucho pero dicen que es un tesoro de la antigua Tierra.
+Mago: Puede que tu sí le encuentres el valor.
+//strange sword adquired!!
+Neom: Gracias
+Mago: Suerte en tu busqueda, viajero del tiempo.
+
+//Neom presiona ir al futuro en su reloj
+//fade out
+
+//Mision 3- El Emperador
+//descripcion: Busca al Emperador y su carta en el futuro
+
+Neom: Volví a las ruinas.
+
+NPC: No se puede conseguir nada en estas tierras devastadas. ¡Ni las ruinas tienen valor alguno!
+NPC2: Despues de la destruccion de Saud por esa plaga extraterreste, no hay razon para venir.
+NPC: Pero dicen que el emperador sigue rondeando por ahí.
+NPC2: Quien sabe. Capaz y esta demente ya.
+
+Neom: (El Emperador sigue vivo... Aun puede que tenga la carta. Lo buscare.)
+
+//Neom busca y llega a la entrada de una cueva, entra y hay cambio de escena
+
+//Dentro de la cueva
+
+Emperador: Fuera... ¡Fuera!
+
+Neom: Emperador Saud, ¿Es usted?
+
+Emperador: No... ya no lo soy. ¿Que quieres?
+
+Neom: Su carta de la baraja.
+
+Emperador: ¡NO! No no no...
+Emperador: ¿Tu tambien? Ni lo suenes. Ni cuando la Muerte se me paro en frente y destruyo mi reino me atreví a darle la carta.
+Emperador: Escape antes de eso.
+
+Neom: La Muerte...
+Emperador: Esto vale mas que todas las vidas del universo... pero no lo entiendes.
+Emperador: ¡Nunca te la dare!
+
+//boss fight
+
+//Neom rompe la bola de cristal
+Anuncio: La bola de cristal espacial reacciono con la arma reliquia
+//sword upgrade
+Anuncio: ¡Carta adquerida! El Emperador.
+Anuncio: Mision completada.
+
+//mission complete
+Neom: Y ahora...
+Neom: No era mi intencion acabar con el, pero mi vida estaba en juego.
+Neom: Menciono a la Muerte. El Mago dijo que la plaga era extraterreste, entonces ¿la Muerte sera una especie de otro planeta?
+Neom: El planeta mas cercano es Mesia. En mi presente aun no era muy conocido...
+Neom: No pierdo nada por intentar. Ire al portal.
+
+//Neom va al portal de tp 
+//fade to black
+
+//Mission 4 - La Muerte
+//descripcion: Busca a la Muerte y su carta.
+
+Neom: ...
+Muerte: ¿Quien se atreve a pisar mis tierras?
+Neom: Soy un viajero-
+Muerte: Un viajero que busca a la muerte por voluntad propia. No eres el primero, ni el ultimo.
+Neom: ¡Espera!
+
+//boss fight
+
+//boss fight interrumpida por dialogo cuando el user tiene como 10% de health
+Neom: ¡Solo necesito tu carta!
+
+//Death deja de pelear
+Muerte: Carta... ¿Acaso tratas de reunir la baraja?
+Neom: Sí... Tengo tres cartas.
+Muerte: ...
+Muerte: HA HA HA HA HA HA.
+Muerte: ¿Con que eso buscabas? ¡La carta!
+Muerte: Te dare la mía con una sola condicion.
+Neom: ..?
+Muerte: Jura que las reuniras todas. Quieras o no. O yo ire personalmente por ti.
+Neom: Es lo que pienso hacer de todas formas.
+Muerte: Ha ha ha... Confío en tus palabras. Aquí tienes.
+
+
+//card adquired!!!
+Anuncio: ¡Carta adquerida! La Muerte.
+Anuncio: Mision completada.
+
+Neom: Solo dos mas....
+Muerte: Eres un viajero en el tiempo ¿No? Es como si todo estuviera planeado para ti.
+Muerte: Las dos ultimas cartas estan en Saud, pero en el Santo Bosque. 
+Muerte: Estan en manos de una entidad bendecida por los dioses del universo: El Mundo y el Sol, allí se encuentran. Pero perecieron antes de que yo pudiera reunirlas.
+Muerte: La plaga acabo con todo ese reino, y El Mundo prefirio morir antes de entregarme la carta.
+Muerte: Ya sabes que tienes que hacer.
+Neom: Ir al pasado...
+Neom: Pero... ¿Pelear contra el mundo? ¿Acaso eso no es imposible?
+Muerte: Puede que seas el elegido, puede que no. Ten esto, puede que te sirva como ultimo recurso si tu vida corre peligro.
+// roca extrana adquired!!
+Neom: Gracias... Bueno, seguire en mi viaje.
+Muerte: Espero no tener que irte a buscar por ahora.
+//Neom uses clock to go to the past
+
+//Mision 5 - El Mundo
+//descripcion: Encuentra la carta del Mundo.
+Neom: El Santo Bosque... Es este...
+//walks around
+//enters the forest
+//the world wakes up
+Mundo: No eres de los bendecidos. ¿Que haces en terreno sagrado?
+Neom: Busco tu carta, la carta de El Mundo.
+Mundo: La ignorancia es el mayor pecado de la humanidad. 
+Mundo: Regresa, a menos que quieras pelear contra mi.
+Neom: Solo regresare con la carta.
+
+//mundo entra en fighitng mode, mob wave
+//Cuando Neom tenga muy poca vida, use weird stone given by death automatically
+//all mobs die, leaving only a hurt the world
+
+Mundo: No conoces el peso de tus acciones... 
+Neom: Lo siento, pero hice una promesa.
+Mundo: Fue La Muerte... ¿Como? Si aun esta sellada.
+Neom: Viaje en el tiempo para conseguir la baraja.
+Mundo: No... Lo hagas.. El universo-
+
+//the world dies 
+
+Neom: ¿El universo que..?
+Neom: De todas formas, ya no hay vuelta atras
+// se acerca al mundo
+//card adquired!!!
+Anuncio: Carta adquerida! El Mundo.
+
+//mission finished
+Anuncio: Mision completa,
+
+
+//Mision 6- El Sol
+//descripcion: Encuentra la carta de El Sol.
+Neom: La Muerte dijo que la carta de El Sol estaba con El Mundo.
+Neom: ¿Trataba de proteger la carta? Buscare mas a fondo.
+
+//Neom goes deeper into de forest and goes to the stone pillar where a sword is
+Neom: Ese debe ser El Sol.
+
+//se acerca, click en la piedra al frente de el
+Piedra: En esta espada se encuentran las ultimas partículas de la antigua estrella El Sol.
+Piedra: Esta es protegida por la bendecida por el universo, El Mundo.
+Piedra: Es la ultima carta de la baraja קילל את. Es muy importante que קלפים לא נפגשים.
+Piedra: Las cartas traen הרס ואסון ליקום.
+Piedra: האדם שאוסף אותם מקולל לנצח בלבד, במציאות שבה רק הוא קיים.
+
+Neom: Unas partes estan en un lenguaje antiguo. No tengo informacion sobre esto. 
+Neom: Pero confirma que es una de las cartas de la baraja.
+Neom: Es hora...
+
+//Neom se acerca a la espada y la saca 
+//se convierte en una carta 
+//Card adquired!!!
+Anuncio: Carta adquerida! El Sol.
+
+Anuncio: Las partículas del Sol reaccionaron con el reloj. 
+
+Neom: El reloj... ¿Podre volver al presente?
+// Neom saca su reloj y oprime ir al presente. Everything fades to black.
+
+//Mision 7- ¿Epilogo?
+Sistema: Error. Error. Error. Detectando interferencia desconocida...
+Neom: ¡Sistema! Redirecciona el trayecto.
+Sistema: Redireccionando.... Interferencia fuera de radio.
+
+Neom: ¡Esquivamos el Black Hole!
+Neom: Ya es hora... La baraja completa...
+//shows 5 of the cards
+Neom: Ahora la ultima carta... la que siempre he tenido.
+Neom: "El Bufon"
+Neom: "Quien va perdido y sin rumbo"
+Neom: "Una criatura que parece no vivir en la realidad"
+Neom: La carta que nunca me abandono por mas de 200 anos.
+Neom: Ahora... ¿Que secretos esconde esta realidad?
+
+//cards fuses and everything goes black
+//dialogue of the sword starts playing
+
+Piedra: En esta espada se encuentran las ultimas partículas de la antigua estrella El Sol.
+Piedra: Esta es protegida por la bendecida por el universo, El Mundo.
+Piedra: Es la ultima carta de la baraja maldita. Es muy importante que no se reunan las cartas.
+Piedra: Las cartas traen destruccion y desastre para el universo.
+Piedra: La persona que las reuna, esta maldita a una eternidad en solitud. En una realidad donde solo existe el.
+
+===
