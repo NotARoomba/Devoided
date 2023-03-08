@@ -1,11 +1,14 @@
-title: Starting
+title: Space
 ---
 //place: Space
 //fadeIn
 Unknown: En una epoca de auge de la exploracion espacial, un ingeniero cuantico viajaba por el espacio-tiempo en busqueda de reliquias de la antigua Tierra.
 Unknown: Conseguir una misteriosa baraja era su objetivo, ya que segun leyendas contenía el secreto de la existencia del universo.
 Unknown: Neom, con su reloj y nave espacial, es un descendiente de la ultima generacion de la antigua Tierra y logra conseguir esta baraja de cartas.
-
+---
+===
+title: spacecraft
+---
 //scene change to spacecraft
 
 Neom: Por fin, lo he conseguido... 
@@ -39,7 +42,10 @@ Neom: Oh, aun tengo una carta. Claro que tenía que ser esta...
 Neom: Pero bueno, ¿Esto es en verdad la Tierra?
 Neom: Segun libros antiguos, este debería ser el reino de Saud. Pero aun no esta destruido, ni son ruinas.
 Neom: La carta del Mago fue encontrada por primera vez en una tumba en este reino. ¿Sera que su dueno aun esta vivo?
-
+---
+===
+title: Mission_1
+---
 //titulo mission 1- El Mago
 //descripcion: Busca alrededor de la capital de Saud pistas de la carta
 
@@ -53,7 +59,7 @@ Consola: Usuario correcto. Ingresar planeta.
 //El player tiene que ingresar "Mercurio"
 Consola: Correcto. Iniciando teletransportacion.
 Anuncio: Mision completada.
-
+---
 ===
 title: The_Magician
 
@@ -110,7 +116,10 @@ Mago: ...
 Mago: Si es así... creo que sería posible.
 
 Neom: No se diga mas. 
-
+---
+===
+title: Mission_2
+---
 //Mission 2 - La Cura
 //descripcion: Encuentra el loto infinito en el futuro para la curar al Mago
 
@@ -162,7 +171,10 @@ Mago: Suerte en tu busqueda, viajero del tiempo.
 
 //Neom presiona ir al futuro en su reloj
 //fade out
-
+---
+===
+title: Mission_3
+---
 //Mision 3- El Emperador
 //descripcion: Busca al Emperador y su carta en el futuro
 
@@ -212,7 +224,10 @@ Neom: No pierdo nada por intentar. Ire al portal.
 
 //Neom va al portal de tp 
 //fade to black
-
+---
+===
+title: Mission_4
+---
 //Mission 4 - La Muerte
 //descripcion: Busca a la Muerte y su carta.
 
@@ -257,7 +272,10 @@ Muerte: Puede que seas el elegido, puede que no. Ten esto, puede que te sirva co
 Neom: Gracias... Bueno, seguire en mi viaje.
 Muerte: Espero no tener que irte a buscar por ahora.
 //Neom uses clock to go to the past
-
+---
+===
+title: Mission_5
+---
 //Mision 5 - El Mundo
 //descripcion: Encuentra la carta del Mundo.
 Neom: El Santo Bosque... Es este...
@@ -291,6 +309,10 @@ Anuncio: Carta adquerida! El Mundo.
 //mission finished
 Anuncio: Mision completa,
 
+---
+===
+title: Mission_6
+---
 
 //Mision 6- El Sol
 //descripcion: Encuentra la carta de El Sol.
@@ -320,7 +342,10 @@ Anuncio: Las partículas del Sol reaccionaron con el reloj.
 
 Neom: El reloj... ¿Podre volver al presente?
 // Neom saca su reloj y oprime ir al presente. Everything fades to black.
-
+---
+===
+title: Mission_7
+---
 //Mision 7- ¿Epilogo?
 Sistema: Error. Error. Error. Detectando interferencia desconocida...
 Neom: ¡Sistema! Redirecciona el trayecto.
