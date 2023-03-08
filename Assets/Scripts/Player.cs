@@ -4,27 +4,14 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public bool isMale;
     public float speed = 3.0f;
     private Vector3 last;
     private Animator animator;
-    public RuntimeAnimatorController MaleAnimation;
-    public RuntimeAnimatorController FemaleAnimation;
     private SpriteRenderer spriteRenderer;
     public SwordBehavior weapon;
     public bool inBattle = false;
     private int health = 5; 
     public bool canDialogue;
-    void Start()
-    {
-        animator = gameObject.GetComponent<Animator>();
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-        if (isMale) {
-            animator.runtimeAnimatorController = MaleAnimation;
-        } else {
-           animator.runtimeAnimatorController = FemaleAnimation;
-        }
-    }
      void Update () {
          Vector3 pos = Vector3.zero;
         if (inBattle) {

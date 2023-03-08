@@ -235,7 +235,7 @@ Animator:
   m_GameObject: {fileID: 5114544048004485471}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5f9962154eace08ffbe2bb3ec67ebc39, type: 2}
+  m_Controller: {fileID: 9100000, guid: 35e9cfd1b43f755be94f949b144e62dc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -257,10 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7473173c52f9273adec48a82de055d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isMale: 0
   speed: 3
-  MaleAnimation: {fileID: 9100000, guid: 35e9cfd1b43f755be94f949b144e62dc, type: 2}
-  FemaleAnimation: {fileID: 9100000, guid: 5f9962154eace08ffbe2bb3ec67ebc39, type: 2}
   weapon: {fileID: 5114544047227607176}
   inBattle: 0
   canDialogue: 0
