@@ -8,6 +8,6 @@ public class PlayButton : MainMenuButton
 {
 
     public override void doStuff() {
-        SceneManager.LoadScene("Space", LoadSceneMode.Single);
+        gameObject.GetComponent<LoadScene>().FadeToBlack();
     }
 }
