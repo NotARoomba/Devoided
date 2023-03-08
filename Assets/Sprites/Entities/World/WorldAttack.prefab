@@ -90,11 +90,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 151126711564023568}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10db82997f93bf4d9ac4e81ea87e0d75, type: 3}
+  m_Script: {fileID: 11500000, guid: 7bcf63f23852733c8b458e6edbee64fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
-  speed: 4
+  damage: 15
+  speed: 6
 --- !u!1 &4476526743655915925
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,12 +167,12 @@ SpriteRenderer:
   m_SortingLayerID: 577744147
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5193751818263381138, guid: d0ec0c3cf303445d5a0f2225dd6f8b5b, type: 3}
+  m_Sprite: {fileID: 5193751818263381138, guid: 3c2f1dd3bbe9e33dd9bcda062059ce28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.45714286, y: 0.45714286}
+  m_Size: {x: 0.5714286, y: 0.71428573}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -188,7 +188,7 @@ Animator:
   m_GameObject: {fileID: 4476526743655915925}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4c132f9270892b2438bd5ad0079abed8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4cf61fce5490c7383b61e41fb0f06bce, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

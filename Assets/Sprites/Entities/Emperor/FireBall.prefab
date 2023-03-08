@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 577744147
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5664465567212852924, guid: de44ef2ce0e8ce177b93832bfe64d3ee, type: 3}
+  m_Sprite: {fileID: 5664465567212852924, guid: 90ffcf98d0aa220a78b3024011597042, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,7 +93,7 @@ Animator:
   m_GameObject: {fileID: 6694317611670445397}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 851fa950744f7165fb70d6807f06e8c2, type: 2}
+  m_Controller: {fileID: 9100000, guid: c1babd1f9d0db6082a2fbe1dfbac307c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 6694317612003271426}
   - component: {fileID: 6694317612003271425}
   - component: {fileID: 6694317612003271424}
-  - component: {fileID: 6694317612003271427}
+  - component: {fileID: 8005110493520647399}
   m_Layer: 0
   m_Name: FireBall
   m_TagString: Untagged
@@ -174,7 +174,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 2
---- !u!114 &6694317612003271427
+--- !u!114 &8005110493520647399
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,8 +183,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 6694317612003271454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c24ca5a37c94202439d3275521ba1d16, type: 3}
+  m_Script: {fileID: 11500000, guid: 59edff892d2b2375190cf912d3ed9a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
-  damage: 15
+  speed: 12
+  damage: 10

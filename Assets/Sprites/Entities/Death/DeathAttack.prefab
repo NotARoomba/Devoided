@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 577744147
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6495761399759928590, guid: 256a74d9542c8834d9dd0b2415a79c1d, type: 3}
+  m_Sprite: {fileID: 6495761399759928590, guid: 4f31f8f294b67abb2850f3e99a7669fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,7 +93,7 @@ Animator:
   m_GameObject: {fileID: 6694317611670445397}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0b4b9fdc0b6172b8fab6d34986dcd665, type: 2}
+  m_Controller: {fileID: 9100000, guid: c19d1d8bc601ca83ea51dde533a9a220, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6694317612003271454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f68a380a9169879bfb6d1bd0e01beb47, type: 3}
+  m_Script: {fileID: 11500000, guid: 8489dbd8b6c93daf2ad89e2da8a10308, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 25
+  damage: 15

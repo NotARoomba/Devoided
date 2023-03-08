@@ -14,7 +14,7 @@ AnimatorStateMachine:
     m_Position: {x: 380, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4159081987487893628}
-    m_Position: {x: 464.25, y: 268.5, z: 0}
+    m_Position: {x: 470, y: 270, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3851761045751340986}
     m_Position: {x: 613.00916, y: 28.185608, z: 0}
@@ -64,7 +64,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 70128c7e86ddde7e29fcbdcf9c7a702b, type: 2}
+    m_Motion: {fileID: 7400000, guid: 453fd8bc163464ce7909f752528eb7ae, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -72,7 +72,7 @@ BlendTree:
     m_DirectBlendParameter: isSword
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: e0f9a778a999006e392d7736331f546d, type: 2}
+    m_Motion: {fileID: 7400000, guid: ff4c8c9a9b3751d1d846656e9d0ff402, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -95,7 +95,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 749d362d1e866c668b9586d5d4ef61cf, type: 2}
+    m_Motion: {fileID: 7400000, guid: 33b4199310d4485008e3208daa7e6f87, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -103,7 +103,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: bee14a0453d436730a035dcbdb49cc74, type: 2}
+    m_Motion: {fileID: 7400000, guid: e1c9a4314bb64371abc7d50194f152ee, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -153,13 +153,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isSword
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -243,7 +243,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 2fc1019c857d47dafab20de9b854a012, type: 2}
+  m_Motion: {fileID: 7400000, guid: 86a4505cdf18ae437b3d1cb8fdf073cd, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
