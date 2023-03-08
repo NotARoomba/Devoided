@@ -12,6 +12,8 @@ ScriptedImporter:
   errors:
   - Invalid rectangle (Tile ID ='0') in tileset 'preview-bulkhead-walls-v2' has zero
     height
+  - Invalid rectangle (Tile ID ='284') in tileset 'preview-bulkhead-walls-v2' has
+    zero width
   - Invalid rectangle (Tile ID ='286') in tileset 'preview-bulkhead-walls-v2' has
     zero width
   - Invalid rectangle (Tile ID ='286') in tileset 'preview-bulkhead-walls-v2' has
