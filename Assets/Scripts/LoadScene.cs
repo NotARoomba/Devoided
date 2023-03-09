@@ -20,6 +20,7 @@ public float fadeTime = 1f; // duration of the fade in seconds
     FadeScreen.transform.position = new Vector3(0, 0, -4);
     FadeScreen.transform.localScale = new Vector3(Screen.width, Screen.height, 0);
     FadeScreen.GetComponent<SpriteRenderer>().sprite = square;
+    FadeScreen.GetComponent<SpriteRenderer>().sortingOrder = 5;
     // gradually increase the alpha value of the fade image to fully opaque
     float timer = 0f;
     while (timer < fadeTime)

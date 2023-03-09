@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     public bool canDialogue;
     public bool hasSword = false;
     private bool jumpBlocked;
+    public bool canJump;
      void Update () {
          Vector3 pos = Vector3.zero;
          weapon.gameObject.SetActive(hasSword);
@@ -46,7 +47,7 @@ public class Player : MonoBehaviour
             }
          }
          if (in2D) {
-            if (Input.GetKey("space")) {
+            if (Input.GetKey("space") && canJump) {
                 
                 if (gameObject.GetComponentInParent<Rigidbody2D>().velocity.y < 0 && gameObject.GetComponentInParent<Rigidbody2D>().velocity.y > -1) {
                     jump();

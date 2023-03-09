@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 3
-  scene: Spaceship
+  scene: Spacecraft
   square: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
 --- !u!114 &310642773
 MonoBehaviour:
@@ -252,6 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 653331076}
   dialogueToRun: Space
+  spacelvl: 1
 --- !u!1 &534486415
 GameObject:
   m_ObjectHideFlags: 0
