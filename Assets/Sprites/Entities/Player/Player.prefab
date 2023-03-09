@@ -258,6 +258,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  animator: {fileID: 5114544048004485466}
+  spriteRenderer: {fileID: 5114544048004485467}
   weapon: {fileID: 5114544047227607176}
   inBattle: 0
   canDialogue: 0

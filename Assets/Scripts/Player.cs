@@ -6,8 +6,8 @@ public class Player : MonoBehaviour
 {
     public float speed = 3.0f;
     private Vector3 last;
-    private Animator animator;
-    private SpriteRenderer spriteRenderer;
+    public Animator animator;
+    public SpriteRenderer spriteRenderer;
     public SwordBehavior weapon;
     public bool inBattle = false;
     private int health = 5; 
