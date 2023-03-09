@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="78" height="11" tilewidth="16" tileheight="16" infinite="1" nextlayerid="2" nextobjectid="1">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="78" height="11" tilewidth="16" tileheight="16" infinite="1" nextlayerid="5" nextobjectid="1">
  <tileset firstgid="1" name="neoncitybg" tilewidth="1248" tileheight="176" tilecount="1" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="1248" height="176" source="street.png"/>
+   <objectgroup draworder="index" id="4">
+    <object id="5" x="0.389438" y="0.778877" width="17.1353" height="175.247"/>
+    <object id="7" x="1232.96" y="0.778877" width="14.7987" height="175.637"/>
+    <object id="8" x="1268.79" y="80.6138"/>
+    <object id="9" x="-0.389438" y="159.67" width="1250.1" height="16.7459"/>
+    <object id="10" x="-12.8515" y="135.525"/>
+    <object id="12" x="3.77786" y="143.559" width="1240.4"/>
+    <object id="13" x="510.011" y="249.339"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="SmallTerminal" tilewidth="16" tileheight="16" tilecount="4" columns="2">
+  <image source="SmallTerminal.png" trans="000000" width="33" height="37"/>
+  <tile id="0">
+   <objectgroup>
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <objectgroup>
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <objectgroup>
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
   </tile>
  </tileset>
  <layer id="1" name="Tile Layer 1" width="78" height="11">
@@ -22,6 +54,28 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+  </data>
+ </layer>
+ <layer id="4" name="Tile Layer 2" width="78" height="11">
+  <data encoding="csv">
+   <chunk x="48" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,4,5,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

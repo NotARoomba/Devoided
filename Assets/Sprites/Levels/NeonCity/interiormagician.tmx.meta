@@ -9,7 +9,9 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 9c96b53d4e144fd07a29e7f8ccb2fe48, type: 3}
   missingFiles: []
-  errors: []
+  errors:
+  - Invalid rectangle (Tile ID ='0') in tileset 'interior spaceship' has zero width
+  - Invalid rectangle (Tile ID ='0') in tileset 'interior spaceship' has zero width
   warnings:
   - Tileset 'interior spaceship' is an embedded tileset. Exported tilesets are preferred.
   missingSortingLayers: []
