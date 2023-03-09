@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 5b16cbdbbe183234d9b4497bddc5bc26
   - enabled: 1
-    path: Assets/Scenes/ElementalLevel.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Space.unity
+    guid: 27bc8ce2812a423efa89400e5b2f4e68
+  - enabled: 1
+    path: Assets/Scenes/Spacecraft.unity
+    guid: 04a2f1ee9f16de82ba34eece9157e3d4
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: c968f77dd8a4a7de5aa6a2e89ccc647b, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 541fb07f7d8138fbe91e89cf0ff2d34c, type: 2}
