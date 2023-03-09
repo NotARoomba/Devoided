@@ -133,12 +133,17 @@ title: Ancient_Ruins
 
 Neom: Con que estas son las ruinas de Saud. 
 Neom: Tengo que encontrar ese loto lo antes posible.
-
+===
+title: FoundFlower
+---
 //encuentra loto, lo toma
 Neom: ¡Esta es! Lo guardare en mi bolsa espacial. Ahora regresare al pasado.
 
 //regresa al pasado undiendo en el reloj
 //devuelta en la neon city
+<<show_clock true>>
+<<wait  3>>
+<<fade_camera true>>
 ===
 title: Mission_2
 ---
