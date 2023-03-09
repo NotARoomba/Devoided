@@ -116,14 +116,13 @@ Mago: ...
 Mago: Si es así... creo que sería posible.
 
 Neom: No se diga mas. 
-===
-title: Mission_2
----
-//Mission 2 - La Cura
-//descripcion: Encuentra el loto infinito en el futuro para la curar al Mago
-
 Mago: Podrías usar ese reloj... Eso creo.
-
+<<show_clock>>
+<<wait 2>>
+<<fade_camera true>>
+===
+title: Ancient_Ruins
+---
 //Neom entra en el panel del reloj y tiene que seleccionar viaje al futuro.
 //Scene change a ancient ruinas
 

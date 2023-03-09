@@ -14,6 +14,7 @@ public float fadeTime = 1f; // duration of the fade in seconds
         // start the fading coroutine
         StartCoroutine(FadeToBlackCoroutine(shouldSwitch));
     }
+    
 
 void Awake() {
         FadeScreen = new GameObject("FadeScreen",typeof(SpriteRenderer));

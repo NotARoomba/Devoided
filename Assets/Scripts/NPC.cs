@@ -9,6 +9,7 @@ public class NPC : MonoBehaviour
     private GameObject speechBubble;
     private CircleCollider2D speechCollider;
     public DialogueRunner dialogueRunner;
+    bool hasTalked = false;
     void Start()
     {   
         speechBubble = GameObject.Find(gameObject.name + "/SpeechBubble");
@@ -26,6 +27,11 @@ public class NPC : MonoBehaviour
         }
     }
     void startDialogue() {
-        dialogueRunner.StartDialogue("Space");
+        if (!hasTalked)
+            dialogueRunner.StartDialogue("The_Magician");
+        else {
+            dialogueRunner.StartDialogue("Mission_2");
+        }
+        
     }
 }

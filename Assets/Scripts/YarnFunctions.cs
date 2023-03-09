@@ -24,5 +24,8 @@ public class YarnFunctions : MonoBehaviour {
     }
     private void ShowClock() {
         GameObject clock = GameObject.Find("Clock");
+        clock.transform.position = gameObject.GetComponent<Camera>().ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0));
+        clock.SetActive(true);
+        
     }
 }
