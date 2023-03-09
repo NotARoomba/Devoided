@@ -27,9 +27,9 @@ public class NPC : MonoBehaviour
         }
     }
     void startDialogue() {
-        if (!hasTalked)
+        if (!hasTalked && !dialogueRunner.IsDialogueRunning)
             dialogueRunner.StartDialogue("The_Magician");
-        else {
+        else if (player.hasFlower && !dialogueRunner.IsDialogueRunning) {
             dialogueRunner.StartDialogue("Mission_2");
         }
         

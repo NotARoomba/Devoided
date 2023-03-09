@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     public bool hasSword = false;
     private bool jumpBlocked;
     public bool canJump;
+    public bool hasFlower = false;
      void Update () {
          Vector3 pos = Vector3.zero;
          weapon.gameObject.SetActive(hasSword);

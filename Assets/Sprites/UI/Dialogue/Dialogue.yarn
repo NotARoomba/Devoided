@@ -39,14 +39,18 @@ Neom: ¡Las cartas! ¿Donde esta la baraja? No puede ser...
 Neom: Choque contra un Black Hole... Regresare en el tiempo para esquivarlo.
 
 //se muestra el reloj
-<<show_clock>>
+<<show_clock false>>
 Neom: ¡¿Se rompio?! ¿Como regresare al presente?
 Neom: Al menos conservo mi bolsa espacial...
 Neom: Oh, aun tengo una carta. Claro que tenía que ser esta...
 Neom: Pero bueno, ¿Esto es en verdad la Tierra?
 Neom: Segun libros antiguos, este debería ser el reino de Saud. Pero aun no esta destruido, ni son ruinas.
 Neom: La carta del Mago fue encontrada por primera vez en una tumba en este reino. ¿Sera que su dueno aun esta vivo?
-<<fade_camera true>>
+Neom: Debo encontrar algo para ayudarme en esta mundo.
+//<<fade_camera true>>
+===
+title: NeonCity
+---
 //titulo mission 1- El Mago
 //descripcion: Busca alrededor de la capital de Saud pistas de la carta
 
@@ -55,11 +59,12 @@ Neom: La carta del Mago fue encontrada por primera vez en una tumba en este rein
 Consola: Ingrese usuario.
 
 //El player tiene que ingresar "The Magician"
-Consola: Usuario correcto. Ingresar planeta.
+Neom: ay, no tengo cuenta, dejamer intentar algo...
+Neom: *pega la consola*
 
 //El player tiene que ingresar "Mercurio"
 Consola: Correcto. Iniciando teletransportacion.
-Anuncio: Mision completada.
+<<fade_camera true>>
 ===
 title: The_Magician
 
@@ -117,8 +122,8 @@ Mago: Si es así... creo que sería posible.
 
 Neom: No se diga mas. 
 Mago: Podrías usar ese reloj... Eso creo.
-<<show_clock>>
-<<wait 2>>
+<<show_clock true>>
+<<wait 4>>
 <<fade_camera true>>
 ===
 title: Ancient_Ruins
@@ -134,7 +139,9 @@ Neom: ¡Esta es! Lo guardare en mi bolsa espacial. Ahora regresare al pasado.
 
 //regresa al pasado undiendo en el reloj
 //devuelta en la neon city
-
+===
+title: Mission_2
+---
 Mago: Aunque podrías perderte en el espacio tiempo de nuevo...
 
 Neom: Ya la tengo.

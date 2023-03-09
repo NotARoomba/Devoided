@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NeonCity.unity
     guid: 27ac96b3efdbec8b695bb8e5a20a78b5
+  - enabled: 1
+    path: Assets/Scenes/Magician.unity
+    guid: cc8d51ab72401a1098032b76c239cf4c
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: c968f77dd8a4a7de5aa6a2e89ccc647b, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 541fb07f7d8138fbe91e89cf0ff2d34c, type: 2}

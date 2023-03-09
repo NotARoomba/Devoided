@@ -143,7 +143,7 @@ MonoBehaviour:
   m_ConfineMode: 0
   m_BoundingVolume: {fileID: 0}
   m_BoundingShape2D: {fileID: 1426516966}
-  m_ConfineScreenEdges: 0
+  m_ConfineScreenEdges: 1
   m_Damping: 0
 --- !u!1001 &188199352
 PrefabInstance:
@@ -1612,6 +1612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 188199353}
+  clock: {fileID: 0}
 --- !u!114 &547998264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1665,11 +1666,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.2071977
+      value: -4.3770247
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9227276
+      value: -0.77791905
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1747,13 +1748,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -1.3158906, y: 6.4828787}
-      - {x: -15.809657, y: 5.6822367}
-      - {x: -15.885012, y: -4.537375}
+    - - {x: 6.32685, y: 5.5788984}
+      - {x: -15.398756, y: 5.6822367}
+      - {x: -15.474112, y: -4.537375}
       - {x: -13.187406, y: -4.663601}
-      - {x: -1.0570782, y: -4.5922027}
-      - {x: -1.0838401, y: 0.058975697}
-      - {x: -1.1872658, y: 0.6379898}
+      - {x: 6.585661, y: -4.5100217}
+      - {x: 6.31236, y: -1.0093627}
+      - {x: 6.3732934, y: 1.8706901}
 --- !u!4 &1426516967
 Transform:
   m_ObjectHideFlags: 0
@@ -1781,11 +1782,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5114544047838016011, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_TrackedObjectOffset.x
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5114544047838016011, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_TrackedObjectOffset.y
-      value: 2.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048004485467, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_SortingLayer
@@ -1869,11 +1870,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048067654729, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.59065795
+      value: -0.07077622
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048067654729, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.33280262
+      value: 0.03597863
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048067654729, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_LocalPosition.z
