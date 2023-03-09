@@ -4,6 +4,13 @@
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="1060" height="176" source="inside.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.5973" y="1.7919" width="8.9595" height="173.814"/>
+    <object id="2" x="9.5568" y="195.914"/>
+    <object id="3" x="2.3892" y="169.633" width="1057.22" height="7.1676"/>
+    <object id="4" x="1049.46" y="1.1946" width="10.1541" height="175.009"/>
+    <object id="5" x="1113.96" y="154.103"/>
+   </objectgroup>
   </tile>
  </tileset>
  <layer id="1" name="Tile Layer 1" width="1" height="1">

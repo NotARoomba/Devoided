@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e1b38b03ac3ef9ae3a39cd195888803b
+guid: 8a39f129f0d624f18a99beb944e51379
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -9,11 +9,9 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 9c96b53d4e144fd07a29e7f8ccb2fe48, type: 3}
   missingFiles: []
-  errors:
-  - Invalid rectangle (Tile ID ='0') in tileset 'interior spaceship' has zero width
-  - Invalid rectangle (Tile ID ='0') in tileset 'interior spaceship' has zero width
+  errors: []
   warnings:
-  - Tileset 'interior spaceship' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'emperor planet' is an embedded tileset. Exported tilesets are preferred.
   missingSortingLayers: []
   missingLayers: []
   missingTags: []
