@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     public bool canJump;
     public bool hasFlower = false;
     public HealthBar healthBar;
+    public Inventory inventory;
     void Start() {
         healthBar.SetMaxHealth(health);
     }
