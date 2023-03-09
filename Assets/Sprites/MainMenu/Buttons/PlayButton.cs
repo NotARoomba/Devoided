@@ -8,6 +8,6 @@ public class PlayButton : MainMenuButton
 {
 
     public override void doStuff() {
-        gameObject.GetComponent<LoadScene>().FadeToBlack();
+        gameObject.GetComponent<FadeInScenes>().FadeToBlack(true);
     }
 }

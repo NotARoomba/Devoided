@@ -8,6 +8,7 @@ public class RunDialogue : MonoBehaviour
     public DialogueRunner dialogueRunner;
     public string dialogueToRun;
     public bool spacelvl;
+    public bool spaceship;
     public bool hasStarted;
     public void startDialogue() {
         dialogueRunner.StartDialogue(dialogueToRun);
@@ -18,9 +19,15 @@ public class RunDialogue : MonoBehaviour
     {
         if (spacelvl && hasStarted) {
             if (!dialogueRunner.IsDialogueRunning) {
-                gameObject.GetComponent<LoadScene>().FadeToBlack();
+                gameObject.GetComponent<FadeInScenes>().FadeToBlack(true);
                 spacelvl = false;
             }
         }
+        if (spaceship && hasStarted) {
+            if (!dialogueRunner.IsDialogueRunning) {
+                spacelvl = false;
+            }
+        }
+
     }
 }

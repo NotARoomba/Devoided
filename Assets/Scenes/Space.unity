@@ -134,9 +134,8 @@ GameObject:
   - component: {fileID: 310642771}
   - component: {fileID: 310642770}
   - component: {fileID: 310642769}
-  - component: {fileID: 310642772}
-  - component: {fileID: 310642773}
   - component: {fileID: 310642774}
+  - component: {fileID: 310642772}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -218,25 +217,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 310642768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea9df796b803e62328e04d29fd2abc5d, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a3107f3c7be1bef5aed0fbac3be4f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 3
   scene: Spacecraft
-  square: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
---- !u!114 &310642773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310642768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f64a83fd59141278a8fbc242615adb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeTime: 3
   square: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
 --- !u!114 &310642774
 MonoBehaviour:
@@ -253,6 +238,8 @@ MonoBehaviour:
   dialogueRunner: {fileID: 653331076}
   dialogueToRun: Space
   spacelvl: 1
+  spaceship: 0
+  hasStarted: 0
 --- !u!1 &534486415
 GameObject:
   m_ObjectHideFlags: 0
