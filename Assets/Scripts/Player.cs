@@ -10,12 +10,16 @@ public class Player : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public SwordBehavior weapon;
     public bool in2D = false;
-    private int health = 5; 
+    private int health = 100; 
     public bool canDialogue;
     public bool hasSword = false;
     private bool jumpBlocked;
     public bool canJump;
     public bool hasFlower = false;
+    public HealthBar healthBar;
+    void Start() {
+        healthBar.SetMaxHealth(health);
+    }
      void Update () {
          Vector3 pos = Vector3.zero;
          weapon.gameObject.SetActive(hasSword);
@@ -90,6 +94,7 @@ public class Player : MonoBehaviour
     }
     public void hitPlayer(int damage) {
         health -= damage; 
+        healthBar.SetHealth(health);
         StartCoroutine(flashColor(new Color(1, 0, 0, 0.7f)));
     }
     IEnumerator flashColor(Color color) {
