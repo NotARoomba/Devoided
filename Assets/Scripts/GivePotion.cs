@@ -10,7 +10,8 @@ public class GivePotion : MonoBehaviour
 
    void OnTriggerEnter2D(Collider2D collider) {
           if (collider.gameObject.name == "Player") {
-            dialogue.StartDialogue("NeonCity");
+            dialogue.StartDialogue("FoundFlower");
+            collider.gameObject.GetComponent<Player>().hasFlower = true;
             collider.gameObject.GetComponent<Player>().GetComponentInChildren<Inventory>().setSlot("Potion", potionSprite, 0);
 
           }

@@ -13,7 +13,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - FADE
   - 
   - 
   - 
@@ -54,4 +54,7 @@ TagManager:
     locked: 0
   - name: UI and Effects
     uniqueID: 577744147
+    locked: 0
+  - name: FADE
+    uniqueID: 3773367957
     locked: 0

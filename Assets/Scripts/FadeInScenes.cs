@@ -9,18 +9,25 @@ public float fadeTime = 1f; // duration of the fade in seconds
     public string scene;
     public Sprite square;
     private GameObject FadeScreen;
+    [SerializeField] private GameObject UI;
     public void FadeToBlack(bool shouldSwitch)
     {
         // start the fading coroutine
+        if (UI != null)
+            UI.SetActive(false);
         StartCoroutine(FadeToBlackCoroutine(shouldSwitch));
     }
     
 
 void Awake() {
+    if (UI != null)
+        UI.SetActive(false);
         FadeScreen = new GameObject("FadeScreen",typeof(SpriteRenderer));
     FadeScreen.transform.position = new Vector3(0, 0, -4);
-    FadeScreen.transform.localScale = new Vector3(Screen.width, Screen.height, 0);
+    FadeScreen.transform.localScale = new Vector3(Screen.width * 10, Screen.height * 10, 0);
+    FadeScreen.layer = 6;
     FadeScreen.GetComponent<SpriteRenderer>().sprite = square;
+    FadeScreen.GetComponent<SpriteRenderer>().sortingLayerName = "FADE";
     FadeScreen.GetComponent<SpriteRenderer>().sortingOrder = 5;
         StartCoroutine(FadeFromBlack());
     }
@@ -57,6 +64,8 @@ void Awake() {
     }
 
     // set the color of the fade image to fully opaque black
+    if (UI != null)
+        UI.SetActive(true);
     FadeScreen.GetComponent<SpriteRenderer>().color = new Color(0f, 0f, 0f, 0f);
     if (gameObject.GetComponent<RunDialogue>() != null)
         gameObject.GetComponent<RunDialogue>().startDialogue();

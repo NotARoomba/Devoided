@@ -9,6 +9,7 @@ public class YarnFunctions : MonoBehaviour {
     // Drag and drop your Dialogue Runner into this variable.
     public DialogueRunner dialogueRunner;
     public GameObject clock;
+    private bool animated = false;
 
     public void Awake() {
         fader = gameObject.GetComponent<FadeInScenes>();
@@ -24,17 +25,12 @@ public class YarnFunctions : MonoBehaviour {
         );
     }
     private void ShowClock(bool isAnimated) {
-        clock.transform.position = gameObject.GetComponent<Camera>().ScreenToWorldPoint(new Vector3(Screen.width/2, Screen.height/2, 6));
-        if (isAnimated) {
-            clock.GetComponent<Animator>().SetTrigger("Animate");
-            clock.GetComponent<Animator>().ResetTrigger("Idle");
-        }     
-        else {
-            clock.GetComponent<Animator>().ResetTrigger("Animate");
-            clock.GetComponent<Animator>().SetTrigger("Idle");
-        }
-
+        animated = isAnimated;
         clock.SetActive(true);
         
+    }
+    void Update() {
+        clock.transform.position = gameObject.GetComponent<Camera>().ScreenToWorldPoint(new Vector3(Screen.width/2, Screen.height/2, 6));
+        clock.GetComponent<Animator>().SetBool("Animate", animated);
     }
 }

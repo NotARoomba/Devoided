@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5826960979616555557}
   - component: {fileID: 5826960979616555558}
   - component: {fileID: 5826960979616555737}
+  - component: {fileID: 1839667867303060679}
+  - component: {fileID: 1407255329034052887}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -134,3 +136,32 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1839667867303060679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5826960979616555556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e49b3305efcdfba808a54252d6763e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueRunner: {fileID: 0}
+  clock: {fileID: 0}
+--- !u!114 &1407255329034052887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5826960979616555556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3107f3c7be1bef5aed0fbac3be4f98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeTime: 1
+  scene: 
+  square: {fileID: 0}
