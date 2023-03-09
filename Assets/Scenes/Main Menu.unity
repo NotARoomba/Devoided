@@ -907,12 +907,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 760270938}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea9df796b803e62328e04d29fd2abc5d, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a3107f3c7be1bef5aed0fbac3be4f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 3
   scene: Space
-  square: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  square: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
 --- !u!114 &760270944
 MonoBehaviour:
   m_ObjectHideFlags: 0

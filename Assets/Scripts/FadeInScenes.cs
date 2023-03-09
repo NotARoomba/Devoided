@@ -57,6 +57,7 @@ void Awake() {
 
     // set the color of the fade image to fully opaque black
     FadeScreen.GetComponent<SpriteRenderer>().color = new Color(0f, 0f, 0f, 0f);
-    gameObject.GetComponent<RunDialogue>().startDialogue();
+    if (gameObject.GetComponent<RunDialogue>() != null)
+        gameObject.GetComponent<RunDialogue>().startDialogue();
 }   
 }
