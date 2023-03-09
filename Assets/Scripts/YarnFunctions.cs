@@ -17,5 +17,12 @@ public class YarnFunctions : MonoBehaviour {
             "fade_camera",     // the name of the command
             fader.FadeToBlack // the method to run
         );
+        dialogueRunner.AddCommandHandler(
+            "show_clock",     // the name of the command
+            ShowClock // the method to run
+        );
+    }
+    private void ShowClock() {
+        GameObject clock = GameObject.Find("Clock");
     }
 }

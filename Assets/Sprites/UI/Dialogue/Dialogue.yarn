@@ -22,7 +22,11 @@ Sistema: Error. Error. Error. Interferencia no reconocida. Aproximacion del Blac
 Neom: Que-
 
 //todo se vuelve negro y suena un pum
-<<fade_camera false>>
+<<fade_camera true>>
+
+===
+title: Mission_1
+---
 Neom: ...
 Neom: ..¿Donde estoy?
 Neom: ¡Sistema!
@@ -35,7 +39,7 @@ Neom: ¡Las cartas! ¿Donde esta la baraja? No puede ser...
 Neom: Choque contra un Black Hole... Regresare en el tiempo para esquivarlo.
 
 //se muestra el reloj
-
+<<show_clock>>
 Neom: ¡¿Se rompio?! ¿Como regresare al presente?
 Neom: Al menos conservo mi bolsa espacial...
 Neom: Oh, aun tengo una carta. Claro que tenía que ser esta...
@@ -43,9 +47,6 @@ Neom: Pero bueno, ¿Esto es en verdad la Tierra?
 Neom: Segun libros antiguos, este debería ser el reino de Saud. Pero aun no esta destruido, ni son ruinas.
 Neom: La carta del Mago fue encontrada por primera vez en una tumba en este reino. ¿Sera que su dueno aun esta vivo?
 <<fade_camera true>>
-===
-title: Mission_1
----
 //titulo mission 1- El Mago
 //descripcion: Busca alrededor de la capital de Saud pistas de la carta
 

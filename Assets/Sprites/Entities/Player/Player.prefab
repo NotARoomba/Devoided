@@ -264,6 +264,7 @@ MonoBehaviour:
   in2D: 0
   canDialogue: 0
   hasSword: 0
+  canJump: 0
 --- !u!114 &5114544048004485464
 MonoBehaviour:
   m_ObjectHideFlags: 0
