@@ -6,6 +6,7 @@ Unknown: En una epoca de auge de la exploracion espacial, un ingeniero cuantico 
 Unknown: Conseguir una misteriosa baraja era su objetivo, ya que segun leyendas contenía el secreto de la existencia del universo. #line:0a37cfd 
 Unknown: Neom, con su reloj y nave espacial, es un descendiente de la ultima generacion de la antigua Tierra y logra conseguir esta baraja de cartas. #line:0bd7251 
 //run function to change scene
+<<fade_camera true>>
 ===
 title: Spacecraft
 ---
