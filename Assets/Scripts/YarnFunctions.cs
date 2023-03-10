@@ -45,11 +45,9 @@ public class YarnFunctions : MonoBehaviour {
     private void ShowClock(bool isAnimated) {
         animated = isAnimated;
         clock.SetActive(true);
-        
-    }
-    void Update() {
         clock.transform.position = gameObject.GetComponent<Camera>().ScreenToWorldPoint(new Vector3(Screen.width/2, Screen.height/2, 6));
         clock.GetComponent<Animator>().SetBool("Animate", animated);
+        
     }
     void GiveCard(int card) {
         Sprite[] cardSprites = clock.transform.parent.GetComponentInChildren<Inventory>().sprites;
