@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5826960979616555556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.279254, y: -0.99772763, z: -10}
+  m_LocalPosition: {x: 2.5772052, y: -4.8890285, z: -10}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -150,6 +150,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 0}
   clock: {fileID: 0}
+  cardSprites:
+  - {fileID: -6555575649291838755, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
+  - {fileID: -7557494978891415441, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
+  - {fileID: 6220208007999549204, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
+  - {fileID: -2613411450045547498, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
+  - {fileID: 6084249756908604392, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
+  - {fileID: -6663811380663864060, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
 --- !u!114 &1407255329034052887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,3 +172,4 @@ MonoBehaviour:
   fadeTime: 1
   scene: 
   square: {fileID: 0}
+  UI: {fileID: 0}

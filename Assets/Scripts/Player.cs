@@ -11,17 +11,27 @@ public class Player : MonoBehaviour
     public SwordBehavior weapon;
     public bool in2D = false;
     private int health = 100; 
+    public int maxHealth = 100;
     public bool canDialogue;
     public bool hasSword = false;
     private bool jumpBlocked;
     public bool canJump;
     public bool hasFlower = false;
+    public bool hasDeath = false;
+    public bool hasSun = false;
+    public bool hasWorld = false;
+    public bool swordUpgrade = false;
+    public bool hasEmperor = false;
     public HealthBar healthBar;
     public Inventory inventory;
     void Start() {
-        healthBar.SetMaxHealth(health);
+        health = PlayerVars.Instance.health;
+        hasSword = PlayerVars.Instance.hasSword;
+        hasFlower = PlayerVars.Instance.hasFlower;
+        healthBar.SetHealth(health);
     }
      void Update () {
+        PlayerVars.Instance.SetPlayerVariables(health, hasSword, hasFlower, hasEmperor, swordUpgrade, hasDeath);
          Vector3 pos = Vector3.zero;
          weapon.gameObject.SetActive(hasSword);
         if (in2D) {

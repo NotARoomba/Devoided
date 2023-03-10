@@ -156,7 +156,7 @@ Mago: ...¿Es enserio? No han pasado ni dos minutos.
 Neom: Pues para mi fueron unas cuantas horas... Aquí tienes.
 
 //Announcement Mission complete!
-Anuncio: Mision completada.
+//Anuncio: Mision completada.
 
 
 Mago: Necesitare otros cuantos días para recuperarme, pero no siento mucho el dolor ahora.
@@ -164,7 +164,7 @@ Mago: Me has salvado la vida. Toma esto, te la mereces.
 
 //Mago le da la carta. Carta adquired!
 Anuncio: ¡Carta adquerida! El Mago.
-
+<<give_card 1>>
 
 Neom: Ahora el resto...
 
@@ -176,17 +176,21 @@ Neom: Podría tratar de encontrarlo en el futuro... No tendría su reino y serí
 Mago: Si piensas volver al futuro, llevate esto. No es mucho pero dicen que es un tesoro de la antigua Tierra.
 Mago: Puede que tu sí le encuentres el valor.
 //strange sword adquired!!
+<<give_sword>>
 Neom: Gracias
 Mago: Suerte en tu busqueda, viajero del tiempo.
 
 //Neom presiona ir al futuro en su reloj
 //fade out
+<<show_clock true>>
+<<wait  3>>
+<<fade_camera true>>
 ===
 title: Mission_3
 ---
+<<can_jump false>>
 //Mision 3- El Emperador
 //descripcion: Busca al Emperador y su carta en el futuro
-
 Neom: Volví a las ruinas.
 
 NPC: No se puede conseguir nada en estas tierras devastadas. ¡Ni las ruinas tienen valor alguno!
@@ -215,6 +219,11 @@ Emperador: Escape antes de eso.
 Neom: La Muerte...
 Emperador: Esto vale mas que todas las vidas del universo... pero no lo entiendes.
 Emperador: ¡Nunca te la dare!
+<<can_jump true>>
+<<emperor_delay EmperorBoss false>>
+===
+title: EmperorBossDeath
+---
 
 //boss fight
 
@@ -231,11 +240,11 @@ Neom: Menciono a la Muerte. El Mago dijo que la plaga era extraterreste, entonce
 Neom: El planeta mas cercano es Mesia. En mi presente aun no era muy conocido...
 Neom: No pierdo nada por intentar. Ire al portal.
 
-//Neom va al portal de tp 
-//fade to black
+<<fade_camera true>>
 ===
 title: Mission_4
 ---
+<<can_jump false>>
 //Mission 4 - La Muerte
 //descripcion: Busca a la Muerte y su carta.
 
@@ -246,7 +255,7 @@ Muerte: Un viajero que busca a la muerte por voluntad propia. No eres el primero
 Neom: ¡Espera!
 
 //boss fight
-
+<<can_jump true>>
 //boss fight interrumpida por dialogo cuando el user tiene como 10% de health
 Neom: ¡Solo necesito tu carta!
 

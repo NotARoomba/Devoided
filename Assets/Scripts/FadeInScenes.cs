@@ -69,5 +69,5 @@ void Awake() {
     FadeScreen.GetComponent<SpriteRenderer>().color = new Color(0f, 0f, 0f, 0f);
     if (gameObject.GetComponent<RunDialogue>() != null)
         gameObject.GetComponent<RunDialogue>().startDialogue();
-}   
+    }   
 }

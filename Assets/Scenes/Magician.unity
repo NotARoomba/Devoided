@@ -217,6 +217,11 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 477577725}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+--- !u!20 &498897298 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5826960979616555559, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
+  m_PrefabInstance: {fileID: 1402773079}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &712298472 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5114544048004485469, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
@@ -235,6 +240,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1246647174592168237, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246647174592168237, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5114544047838016011, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_TrackedObjectOffset.x
       value: 0
@@ -325,7 +338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048067654729, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.06965108
+      value: -0.069216624
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048067654729, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -423,6 +436,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 712298472}
     - target: {fileID: 2021011407104970871, guid: 4b48cada2d8d6a2fdac3132f35467f2d, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 498897298}
+    - target: {fileID: 2021011407104970871, guid: 4b48cada2d8d6a2fdac3132f35467f2d, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 484499375}
@@ -485,7 +502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.5040913
+      value: -4.5502453
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.y

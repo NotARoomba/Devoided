@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class EmperorBoss : MonoBehaviour
 {   
@@ -10,6 +11,8 @@ public class EmperorBoss : MonoBehaviour
     public Transform launchOffset;
     public float delay = 4;
     private bool canAttack = true;
+    public DialogueRunner dialogue;
+    public bool isTalking = true;
     void Start()
     {
         
@@ -21,7 +24,7 @@ public class EmperorBoss : MonoBehaviour
         if (health <= 0) {
             StartCoroutine(death());
         }
-        if (canAttack) {
+        if (canAttack && !isTalking) {
             StartCoroutine(AttackAfterTime(delay));
         }
     }
@@ -46,6 +49,8 @@ public class EmperorBoss : MonoBehaviour
     }
  IEnumerator death() {
     gameObject.GetComponent<Animator>().Play("Death");
+    if (!dialogue.IsDialogueRunning)
+        dialogue.StartDialogue("EmperorBossDeath");
     yield return new WaitForSeconds(4);
     StartCoroutine(player.upgradeSword());
     Destroy(gameObject);

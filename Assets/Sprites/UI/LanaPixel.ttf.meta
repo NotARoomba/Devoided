@@ -10,7 +10,8 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - LanaPixel
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5653c4d242f17132d850a4e010bd9ca1, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

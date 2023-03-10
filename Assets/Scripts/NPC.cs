@@ -9,7 +9,7 @@ public class NPC : MonoBehaviour
     private GameObject speechBubble;
     private CircleCollider2D speechCollider;
     public DialogueRunner dialogueRunner;
-    bool hasTalked = false;
+    public Camera mainCamera;
     void Start()
     {   
         speechBubble = GameObject.Find(gameObject.name + "/SpeechBubble");
@@ -27,9 +27,10 @@ public class NPC : MonoBehaviour
         }
     }
     void startDialogue() {
-        if (!hasTalked && !dialogueRunner.IsDialogueRunning)
+        if (!player.hasFlower && !dialogueRunner.IsDialogueRunning)
             dialogueRunner.StartDialogue("The_Magician");
         else if (player.hasFlower && !dialogueRunner.IsDialogueRunning) {
+            mainCamera.GetComponent<FadeInScenes>().scene = "EmporerFightLevel";
             dialogueRunner.StartDialogue("Mission_2");
         }
         
