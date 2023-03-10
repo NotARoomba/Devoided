@@ -1,19 +1,4 @@
-﻿
-title: Ending
----
-//cards fuses and everything goes black
-//dialogue of the sword starts playing
-<<player_ending>>
-
-Piedra: En esta espada se encuentran las ultimas partículas de la antigua estrella El Sol. #line:05ebf43 
-Piedra: Esta es protegida por la bendecida por el universo, El Mundo. #line:0f05910 
-Piedra: Es la ultima carta de la baraja maldita. Es muy importante que no se reunan las cartas. #line:088e8a3 
-Piedra: Las cartas traen destruccion y desastre para el universo. #line:09291ea 
-Piedra: La persona que las reuna, esta maldita a una eternidad en solitud. En una realidad donde solo existe el. #line:02963f3 
-<<fade_camera true>>
-===
-
-title: Space
+﻿title: Space
 ---
 //place: Space
 //fadeIn
@@ -419,3 +404,17 @@ Neom: La carta que nunca me abandono por mas de 200 anos. #line:0bffd9b
 Neom: Ahora... ¿Que secretos esconde esta realidad? #line:0e9a3a6 
 <<fade_camera true>>
 ===
+title: Ending
+---
+//cards fuses and everything goes black
+//dialogue of the sword starts playing
+<<player_ending>>
+
+Piedra: En esta espada se encuentran las ultimas partículas de la antigua estrella El Sol. #line:05ebf43 
+Piedra: Esta es protegida por la bendecida por el universo, El Mundo. #line:0f05910 
+Piedra: Es la ultima carta de la baraja maldita. Es muy importante que no se reunan las cartas. #line:088e8a3 
+Piedra: Las cartas traen destruccion y desastre para el universo. #line:09291ea 
+Piedra: La persona que las reuna, esta maldita a una eternidad en solitud. En una realidad donde solo existe el. #line:02963f3 
+<<fade_camera true>>
+===
+
