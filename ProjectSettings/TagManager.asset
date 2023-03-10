@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Enemy
   - Talkable
-  - TitleTheme
   layers:
   - Default
   - TransparentFX
