@@ -193,6 +193,12 @@ MonoBehaviour:
   inventory: []
   sprites:
   - {fileID: 184950751378207249, guid: d9de5545c1618442698c24bb79f6ebff, type: 3}
+  - {fileID: -7557494978891415441, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
+  - {fileID: 6220208007999549204, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
+  - {fileID: -2613411450045547498, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
+  - {fileID: 6084249756908604392, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
+  - {fileID: -6663811380663864060, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
+  - {fileID: -1636742031616846006, guid: 4a8dc7f711fce1c04b33269c956ae6f8, type: 3}
 --- !u!1 &1123709171267861294
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,6 +968,13 @@ MonoBehaviour:
   hasSword: 0
   canJump: 0
   hasFlower: 0
+  hasDeath: 0
+  hasSun: 0
+  hasWorld: 0
+  swordUpgrade: 0
+  hasEmperor: 0
+  hasMagician: 0
+  hasFool: 0
   healthBar: {fileID: 8370164719980524983}
   inventory: {fileID: 3286387120074242555}
 --- !u!114 &5114544048004485464
@@ -1104,7 +1117,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5114544048067654731}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12458992, y: 0.06545448, z: -10}
+  m_LocalPosition: {x: -0.124329284, y: 0.06545448, z: -10}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children:
   - {fileID: 5114544047838016010}

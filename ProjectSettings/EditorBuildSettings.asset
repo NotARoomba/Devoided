@@ -22,7 +22,10 @@ EditorBuildSettings:
     guid: cc8d51ab72401a1098032b76c239cf4c
   - enabled: 1
     path: Assets/Scenes/EmporerFightLevel.unity
-    guid: 37601f254db04db7a98f6bbd957cacbf
+    guid: 4aa5baeda08db50a6818e39dd0f180ae
+  - enabled: 1
+    path: Assets/Scenes/AncientRuins.unity
+    guid: b1f2eb6ae83db4dfb965573a5920a920
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: c968f77dd8a4a7de5aa6a2e89ccc647b, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 541fb07f7d8138fbe91e89cf0ff2d34c, type: 2}

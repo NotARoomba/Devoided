@@ -337,11 +337,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 14.957337, y: 1.9626011}
-      - {x: -9.688512, y: 1.938034}
+    - - {x: 15.031383, y: 1.9996238}
+      - {x: -9.614463, y: 2.0120811}
       - {x: -9.658448, y: -0.69794786}
-      - {x: -9.667618, y: -2.9563577}
-      - {x: 15.01984, y: -2.98604}
+      - {x: -9.667618, y: -4.733468}
+      - {x: 15.056864, y: -4.8001733}
 --- !u!4 &1088610770
 Transform:
   m_ObjectHideFlags: 0
@@ -427,7 +427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4902797437503694298, guid: 8a39f129f0d624f18a99beb944e51379, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -4902797437503694298, guid: 8a39f129f0d624f18a99beb944e51379, type: 3}
       propertyPath: m_LocalPosition.x
@@ -512,11 +512,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6152416900657037451, guid: 4684d799bdf05a75ca2727479da2e34f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.77
+      value: 21.88
       objectReference: {fileID: 0}
     - target: {fileID: 6152416900657037451, guid: 4684d799bdf05a75ca2727479da2e34f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.19
+      value: -5.01
       objectReference: {fileID: 0}
     - target: {fileID: 6152416900657037451, guid: 4684d799bdf05a75ca2727479da2e34f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -609,11 +609,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.5258107
+      value: 7.571171
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.136609
+      value: -4.9737144
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -674,11 +674,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048004485468, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.38
+      value: 3.45
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048004485468, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.6
+      value: -5.46
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048004485468, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -738,7 +738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048067654729, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.12458992
+      value: -0.124329284
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048067654729, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -801,6 +801,10 @@ MonoBehaviour:
   hasDeath: 0
   hasSun: 0
   hasWorld: 0
+  swordUpgrade: 0
+  hasEmperor: 0
+  hasMagician: 0
+  hasFool: 0
 --- !u!4 &2019751080
 Transform:
   m_ObjectHideFlags: 0

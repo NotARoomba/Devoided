@@ -22,16 +22,25 @@ public class Player : MonoBehaviour
     public bool hasWorld = false;
     public bool swordUpgrade = false;
     public bool hasEmperor = false;
+    public bool hasMagician = false;
+    public bool hasFool = false;
     public HealthBar healthBar;
     public Inventory inventory;
     void Start() {
         health = PlayerVars.Instance.health;
         hasSword = PlayerVars.Instance.hasSword;
         hasFlower = PlayerVars.Instance.hasFlower;
+        hasEmperor = PlayerVars.Instance.hasEmperor;
+        hasMagician = PlayerVars.Instance.hasMagician;
+        swordUpgrade = PlayerVars.Instance.swordUpgrade;
+        hasDeath = PlayerVars.Instance.hasDeath;
+        hasSun = PlayerVars.Instance.hasSun;
+        hasWorld = PlayerVars.Instance.hasWorld;
+        hasFool = PlayerVars.Instance.hasFool;
         healthBar.SetHealth(health);
     }
      void Update () {
-        PlayerVars.Instance.SetPlayerVariables(health, hasSword, hasFlower, hasEmperor, swordUpgrade, hasDeath);
+        PlayerVars.Instance.SetPlayerVariables(health, hasSword, hasFlower, hasMagician, hasEmperor, swordUpgrade, hasDeath, hasSun, hasWorld, hasFool);
          Vector3 pos = Vector3.zero;
          weapon.gameObject.SetActive(hasSword);
         if (in2D) {

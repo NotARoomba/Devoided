@@ -18,8 +18,23 @@ public class Inventory : MonoBehaviour
         if (PlayerVars.Instance.hasFlower) {
             setSlot("Potion", sprites[0], 0);
         }
+        if (PlayerVars.Instance.hasMagician) {
+            setSlot("Magician", sprites[1], 0);
+        }
         if (PlayerVars.Instance.hasEmperor) {
-            setSlot("Emperor", sprites[1], 1);
+            setSlot("Emperor", sprites[2], 1);
+        }
+        if (PlayerVars.Instance.hasDeath) {
+            setSlot("Death", sprites[3], 2);
+        }
+        if (PlayerVars.Instance.hasWorld) {
+            setSlot("World", sprites[4], 3);
+        }
+        if (PlayerVars.Instance.hasSun) {
+            setSlot("Sun", sprites[5], 4);
+        }
+        if (PlayerVars.Instance.hasFool) {
+            setSlot("Sun", sprites[6], 5);
         }
         
     }

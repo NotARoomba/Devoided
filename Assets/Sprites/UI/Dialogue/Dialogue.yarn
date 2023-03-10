@@ -226,9 +226,10 @@ title: EmperorBossDeath
 ---
 
 //boss fight
-
+<<can_jump false>>
 //Neom rompe la bola de cristal
 Anuncio: La bola de cristal espacial reacciono con la arma reliquia
+<<give_card 2>>
 //sword upgrade
 Anuncio: ¡Carta adquerida! El Emperador.
 Anuncio: Mision completada.
@@ -256,6 +257,9 @@ Neom: ¡Espera!
 
 //boss fight
 <<can_jump true>>
+===
+title: DeathInterruption
+---
 //boss fight interrumpida por dialogo cuando el user tiene como 10% de health
 Neom: ¡Solo necesito tu carta!
 
@@ -273,6 +277,7 @@ Muerte: Ha ha ha... Confío en tus palabras. Aquí tienes.
 
 
 //card adquired!!!
+<<give_card 3>>
 Anuncio: ¡Carta adquerida! La Muerte.
 Anuncio: Mision completada.
 
