@@ -402,9 +402,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 36754719}
   dialogueToRun: Mission_3
-  spacelvl: 0
-  spaceship: 0
   hasStarted: 0
+  ending: 0
+  player: {fileID: 0}
 --- !u!1 &1525805534 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2800159124492107323, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
@@ -609,11 +609,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.571171
+      value: 7.4834766
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.9737144
+      value: -5.0847135
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -720,6 +720,10 @@ PrefabInstance:
       propertyPath: canJump
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5114544048004485469, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 36754719}
     - target: {fileID: 5114544048004485469, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: hasSword
       value: 1

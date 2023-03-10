@@ -27,6 +27,7 @@ public class DeathBoss : MonoBehaviour
             canAttack = false;
             dialogue.StartDialogue("DeathInterruption");
             isTalking = true;
+            player.health = 100;
         }
         if (canAttack && !isTalking) {
             StartCoroutine(AttackAfterTime(delay));

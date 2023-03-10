@@ -7,28 +7,24 @@ public class RunDialogue : MonoBehaviour
 {
     public DialogueRunner dialogueRunner;
     public string dialogueToRun;
-    public bool hasStarted;
+    public bool hasStarted = false;
+    public bool spaceship = false;
     public bool ending;
 
     public Player player;
     public void startDialogue() {
-    if(!dialogueRunner.IsDialogueRunning) {
+    if(player != null && player.hasSun && spaceship) {
+        ending = true;
+        gameObject.GetComponent<FadeInScenes>().scene = "Ending";
+        gameObject.GetComponent<FadeInScenes>().fadeTime = 1;
+        if (!dialogueRunner.IsDialogueRunning) {
+            dialogueRunner.StartDialogue("Mission_7");
+
+        }
+    }
+    if(!dialogueRunner.IsDialogueRunning && !hasStarted) {
         dialogueRunner.StartDialogue(dialogueToRun);
         hasStarted = true;
     }
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        if(player != null && ending) {
-            if (!dialogueRunner.IsDialogueRunning && player.hasSun) {
-                dialogueRunner.StartDialogue("Mission_7");
-            ending = true;
-            gameObject.GetComponent<FadeInScenes>().scene = "Ending";
-            gameObject.GetComponent<FadeInScenes>().fadeTime = 1;
-
-            }
-        }
-
     }
 }

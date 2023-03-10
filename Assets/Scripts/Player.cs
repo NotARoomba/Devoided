@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class Player : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class Player : MonoBehaviour
     public HealthBar healthBar;
     public Inventory inventory;
     public GameObject cards;
-    public Camera cam;
+    public DialogueRunner dialogue;
     void Start() {
         health = PlayerVars.Instance.health;
         hasSword = PlayerVars.Instance.hasSword;
@@ -57,6 +58,7 @@ public class Player : MonoBehaviour
         } else {
             speed = 3f;
         }
+        if (!dialogue.IsDialogueRunning) {
          if (Input.GetKey ("w") && !in2D) {
              pos.y += speed * Time.deltaTime;
          }
@@ -77,6 +79,7 @@ public class Player : MonoBehaviour
         }
             }
          }
+        }
          if (in2D) {
             if (Input.GetKey("space") && canJump) {
                 
@@ -130,6 +133,7 @@ public class Player : MonoBehaviour
     }
     public IEnumerator upgradeSword() {
         weapon.isSword = true;
+        swordUpgrade = true;
         weapon.weaponAnimator.Play("SwordUpgrade");
         yield return new WaitForSeconds(2.8f);
     }

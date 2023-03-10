@@ -830,11 +830,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.5772052
+      value: 2.5925913
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.8890285
+      value: -4.8890934
       objectReference: {fileID: 0}
     - target: {fileID: 5826960979616555736, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -893,9 +893,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 1544221335}
   dialogueToRun: Ancient_Ruins
-  spacelvl: 0
-  spaceship: 0
   hasStarted: 0
+  ending: 0
+  player: {fileID: 0}
 --- !u!20 &1978985091 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 5826960979616555559, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
@@ -1046,6 +1046,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048004485469, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 1544221335}
+    - target: {fileID: 5114544048004485469, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: inventory
       value: 
       objectReference: {fileID: 2102211717}
@@ -1055,7 +1059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5114544048067654729, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.12458992
+      value: -0.124329284
       objectReference: {fileID: 0}
     - target: {fileID: 8862977336641048907, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: m_Camera
@@ -1135,7 +1139,10 @@ MonoBehaviour:
   hasDeath: 0
   hasSun: 0
   hasWorld: 0
-  inventory: {fileID: 2102211717}
+  swordUpgrade: 0
+  hasEmperor: 0
+  hasMagician: 0
+  hasFool: 0
 --- !u!4 &2130588888
 Transform:
   m_ObjectHideFlags: 0

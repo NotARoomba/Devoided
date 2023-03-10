@@ -1613,9 +1613,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 188199353}
   dialogueToRun: Spacecraft
-  spacelvl: 0
-  spaceship: 1
   hasStarted: 0
+  spaceship: 1
   ending: 0
   player: {fileID: 1847471807}
 --- !u!20 &547998269 stripped
@@ -1936,6 +1935,10 @@ PrefabInstance:
       propertyPath: cards
       value: 
       objectReference: {fileID: 550348775}
+    - target: {fileID: 5114544048004485469, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 188199353}
     - target: {fileID: 5114544048004485469, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: inBattle
       value: 1

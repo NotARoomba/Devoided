@@ -1203,7 +1203,8 @@ MonoBehaviour:
   hasFool: 0
   healthBar: {fileID: 8370164719980524983}
   inventory: {fileID: 3286387120074242555}
-  cards: {fileID: 0}
+  cards: {fileID: 8371339418094830117}
+  cam: {fileID: 5826960979616555559, guid: f00f36808a1778c8c8e57d18e963ae23, type: 3}
 --- !u!114 &5114544048004485464
 MonoBehaviour:
   m_ObjectHideFlags: 0

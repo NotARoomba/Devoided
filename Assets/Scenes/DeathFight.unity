@@ -223,9 +223,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 2007653923}
   dialogueToRun: Mission_4
-  spacelvl: 0
-  spaceship: 0
   hasStarted: 0
+  ending: 0
+  player: {fileID: 0}
 --- !u!1 &460560288 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2800159124492107323, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
@@ -574,6 +574,10 @@ PrefabInstance:
       propertyPath: canJump
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5114544048004485469, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 2007653923}
     - target: {fileID: 5114544048004485469, guid: 0bfd4dfb2190a692499b26f8e5f2d8b2, type: 3}
       propertyPath: hasSword
       value: 1
