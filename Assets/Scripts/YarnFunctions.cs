@@ -10,6 +10,7 @@ public class YarnFunctions : MonoBehaviour {
     public DialogueRunner dialogueRunner;
     public GameObject clock;
     private bool animated = false;
+    public Sun sun;
 
 
     public void Awake() {
@@ -30,12 +31,15 @@ public class YarnFunctions : MonoBehaviour {
         );
         dialogueRunner.AddCommandHandler(
             "give_sword",     // the name of the command
-            GiveSword // the method to run
+            GiveSword // the method to run 
         );
         dialogueRunner.AddCommandHandler<bool>(
             "can_jump",     // the name of the command
             CanJump // the method to run
         );
+        dialogueRunner.AddCommandHandler("change_sun", ChangeSun);
+        dialogueRunner.AddCommandHandler("show_cards", showCards);
+        dialogueRunner.AddCommandHandler("player_ending", playerEnding);
 
     }
     private void ShowClock(bool isAnimated) {
@@ -82,7 +86,25 @@ public class YarnFunctions : MonoBehaviour {
         }
         target.GetComponent<EmperorBoss>().isTalking = delay;
     }
+    [YarnCommand("death_delay")]
+    static void DeathDelay(GameObject target, bool delay) {
+        if (target == null) {
+            Debug.Log("Cant find Death lol!");
+        }
+        target.GetComponent<DeathBoss>().isTalking = delay;
+    }
     void CanJump(bool jump) {
         clock.transform.parent.GetComponentInChildren<Player>().canJump = jump;
+    }
+    void ChangeSun() {
+        sun.ChangeSun();
+    }
+    void showCards() {
+        clock.transform.parent.GetComponentInChildren<Player>().showCards();
+    }
+    void playerEnding() {
+        clock.transform.parent.GetComponentInChildren<Player>().hasSword = false;
+        clock.transform.parent.GetComponentInChildren<Player>().in2D = true;
+        clock.transform.parent.GetComponentInChildren<RectTransform>().gameObject.SetActive(false);
     }
 }

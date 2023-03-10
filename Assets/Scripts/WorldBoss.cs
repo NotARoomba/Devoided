@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class WorldBoss : MonoBehaviour
 {
@@ -12,6 +13,11 @@ public class WorldBoss : MonoBehaviour
     public float delay = 4.0f;
     private bool canAttack = true;
     public Camera cam;
+    public DialogueRunner dialogue;
+    public bool isTalking = true;
+    bool hasMiddle = false;
+    public bool hasDeathTalked = false;
+    public Sun sun;
     void Start()
     {
         wakeCollider = gameObject.GetComponent<CircleCollider2D>();
@@ -23,8 +29,20 @@ public class WorldBoss : MonoBehaviour
         if (wakeCollider.IsTouching(player.gameObject.GetComponent<PolygonCollider2D>()) && !isAwake) {
             StartCoroutine(wakeUp());
         } 
+        if (health <= 100 && !hasMiddle) {
+            isTalking = dialogue.IsDialogueRunning;
+            dialogue.StartDialogue("MiddleFight");
+            hasMiddle = true;
+        }
+        if (health <= 0 && !hasDeathTalked && !dialogue.IsDialogueRunning) {
+            isTalking = dialogue.IsDialogueRunning;
+            dialogue.StartDialogue("WorldDeath");
+            gameObject.GetComponent<Animator>().SetTrigger("Dead");
+            sun.gameObject.SetActive(true);
+            hasDeathTalked = true;
+        }
         if (isAwake) {
-            if (canAttack) {
+            if (canAttack && !dialogue.IsDialogueRunning) {
                 StartCoroutine(AttackAfterTime(delay));
             }
         }
@@ -63,5 +81,9 @@ public class WorldBoss : MonoBehaviour
         pos.x = (Screen.width / 2);
         pos.y = Screen.height * 1.5f;
         return cam.ScreenToWorldPoint(pos);
+    }
+    public void startDialogue() {
+        if (!dialogue.IsDialogueRunning)
+            dialogue.StartDialogue("WorldFight");
     }
 }

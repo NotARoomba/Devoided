@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class DeathBoss : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class DeathBoss : MonoBehaviour
     public DeathAttackBehavior projectilePrefab;
     public float delay = 4;
     private bool canAttack = true;
+    public bool isTalking = true;
+    public DialogueRunner dialogue;
     void Start()
     {
         
@@ -20,7 +23,12 @@ public class DeathBoss : MonoBehaviour
         if (health <= 0) {
             StartCoroutine(death());
         }
-        if (canAttack) {
+        if (player.health < 15 && !isTalking) {
+            canAttack = false;
+            dialogue.StartDialogue("DeathInterruption");
+            isTalking = true;
+        }
+        if (canAttack && !isTalking) {
             StartCoroutine(AttackAfterTime(delay));
         }
     }

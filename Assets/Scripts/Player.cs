@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public SwordBehavior weapon;
     public bool in2D = false;
-    private int health = 100; 
+    public int health = 100; 
     public int maxHealth = 100;
     public bool canDialogue;
     public bool hasSword = false;
@@ -26,6 +26,8 @@ public class Player : MonoBehaviour
     public bool hasFool = false;
     public HealthBar healthBar;
     public Inventory inventory;
+    public GameObject cards;
+    public Camera cam;
     void Start() {
         health = PlayerVars.Instance.health;
         hasSword = PlayerVars.Instance.hasSword;
@@ -37,9 +39,13 @@ public class Player : MonoBehaviour
         hasSun = PlayerVars.Instance.hasSun;
         hasWorld = PlayerVars.Instance.hasWorld;
         hasFool = PlayerVars.Instance.hasFool;
+        weapon.isSword = swordUpgrade;
         healthBar.SetHealth(health);
     }
      void Update () {
+        if (health <= 0) {
+            Debug.Log("PLAYER DEAD");
+        }
         PlayerVars.Instance.SetPlayerVariables(health, hasSword, hasFlower, hasMagician, hasEmperor, swordUpgrade, hasDeath, hasSun, hasWorld, hasFool);
          Vector3 pos = Vector3.zero;
          weapon.gameObject.SetActive(hasSword);
@@ -78,10 +84,10 @@ public class Player : MonoBehaviour
                     jump();
                 }
             }
+        }
             if(Input.GetMouseButton(0) && hasSword) {
                 weapon.attack();         
            }
-        }
          transform.position += pos;
          transform.rotation = Quaternion.identity;
          last = Vector3.Normalize(pos);
@@ -126,5 +132,8 @@ public class Player : MonoBehaviour
         weapon.isSword = true;
         weapon.weaponAnimator.Play("SwordUpgrade");
         yield return new WaitForSeconds(2.8f);
+    }
+    public void showCards() {
+        cards.SetActive(true);
     }
 }
