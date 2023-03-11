@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" name="interior spaceship" tilewidth="1060" tileheight="176" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="1060" height="176" source="inside.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.5973" y="1.7919" width="8.9595" height="173.814"/>
+    <object id="2" x="9.5568" y="195.914"/>
+    <object id="3" x="2.3892" y="169.633" width="1057.22" height="7.1676"/>
+    <object id="4" x="1049.46" y="1.1946" width="10.1541" height="175.009"/>
+    <object id="5" x="1113.96" y="154.103"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="3" name="Tile Layer 2" width="1" height="1">
+  <data encoding="csv">
+1
+</data>
+ </layer>
+</map>

@@ -1,0 +1,313 @@
+fileFormatVersion: 2
+guid: 3172f4fc8fd01797798725c2cbc84c37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2112381840196859436
+    second: Dagger
+  - first:
+      213: -1140957513941119307
+    second: SwordSlashes_1
+  - first:
+      213: 5427451100551085238
+    second: SwordSlashes_2
+  - first:
+      213: 7916998860653939696
+    second: SwordSlashes_3
+  - first:
+      213: 1353034639351295624
+    second: SwordSlashes_4
+  - first:
+      213: 382663134216582316
+    second: Sword
+  - first:
+      213: -6683751661558700430
+    second: SwordSlashes_7
+  - first:
+      213: -2100739845307635320
+    second: SwordSlashes_8
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dagger
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 44
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.27268818, y: 0.26072475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9841188ef4fa2e0800000000000000
+      internalID: -2112381840196859436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlashes_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 40
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.2571354, y: 0.30738336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be0ab5af218a20f0800000000000000
+      internalID: -1140957513941119307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlashes_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 42
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.23679678, y: 0.23679733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc7624250e225b40800000000000000
+      internalID: 5427451100551085238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlashes_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 45
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.16705915, y: 0.12143898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb43788484dedd60800000000000000
+      internalID: 7916998860653939696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlashes_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 22
+        width: 13
+        height: 12
+      alignment: 9
+      pivot: {x: 0.06267195, y: 0.19788456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e2557f5d1f6c210800000000000000
+      internalID: 1353034639351295624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 23
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.16385311, y: 0.11877537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4fd97d71e7f4500800000000000000
+      internalID: 382663134216582316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlashes_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 20
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0.0964945, y: 0.3096674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276eddd964b8e33a0800000000000000
+      internalID: -6683751661558700430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlashes_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 22
+        width: 13
+        height: 6
+      alignment: 9
+      pivot: {x: -0.05401435, y: 0.6674922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889edeaad3ca8d2e0800000000000000
+      internalID: -2100739845307635320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
