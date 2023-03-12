@@ -19,8 +19,7 @@ public float fadeTime = 1f; // duration of the fade in seconds
     }
     
 void Update() {
-
-        if (PlayerVars.Instance.health <= 0) {
+        if (PlayerVars.Instance != null && PlayerVars.Instance.health <= 0) {
             Death();
         }
 }
