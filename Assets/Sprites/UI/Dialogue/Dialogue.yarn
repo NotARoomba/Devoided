@@ -17,8 +17,9 @@ Neom: Las seis cartas de la baraja...  #line:080dd57
 Neom: El Mago, El Emperador, La Muerte, El Mundo, El Sol y El... #line:05891f9 
 
 //CRASH!!
-
+<<play_sfx 12>>
 Neom: ¿¡Que esta pasando!? ¡Sistema, reinicia motores! #line:0e0142f 
+<<play_sfx 5>>
 Sistema: Error. Error. Error. Interferencia no reconocida. Aproximacion del Black Hole. #line:050a323 
 Neom: Que- #line:034ac4d 
 
@@ -28,6 +29,7 @@ Neom: Que- #line:034ac4d
 ===
 title: Mission_1
 ---
+<<play_music 1>>
 Neom: ... #line:07e13c4 
 Neom: ..¿Donde estoy? #line:080134c 
 Neom: ¡Sistema! #line:09a2ce4 
@@ -57,20 +59,25 @@ title: NeonCity
 
 
 //Neom llega a la consola y esta se prende
+<<play_sfx 2>>
 Consola: Ingrese usuario. #line:064f69d 
 
 //El player tiene que ingresar "The Magician"
 Neom: ay, no tengo cuenta, dejamer intentar algo... #line:056fb6c 
+
 Neom: *pega la consola* #line:0c37acd 
+<<play_sfx 1>>
 
 //El player tiene que ingresar "Mercurio"
 Consola: Correcto. Iniciando teletransportacion. #line:077170e 
+<<play_sfx 10>>
 <<fade_camera true>>
 ===
 title: The_Magician
 
 ---
 //<<fadeIn>>
+<<play_music 3>>
 
 Neom: ¿Ah? #line:065fcba 
 
@@ -97,7 +104,7 @@ Mago: לברכת השמש... ההילה שבעולם... #line:02230f8
 Mago: תן לעבר להפוך להווה #line:099e6ed 
 
 //el reloj se arreglar
-
+<<play_sfx 15>>
 Mago: Conservo la mitad de su poder... Pero hay un tipo de interferencia que no me permite arreglarlo por completo. #line:0a856d4 
 Neom: ¿Entonces? #line:0ce23e0 
 Mago: Podras viajar libremente entre este pasado y un futuro que no conoces. Pero hay un rango de tiempo al que aun no puedes entrar. #line:06426c6 
@@ -129,6 +136,7 @@ Mago: Podrías usar ese reloj... Eso creo. #line:0587bb3
 ===
 title: Ancient_Ruins
 ---
+<<play_music 4>>
 //Neom entra en el panel del reloj y tiene que seleccionar viaje al futuro.
 //Scene change a ancient ruinas
 
@@ -138,6 +146,7 @@ Neom: Tengo que encontrar ese loto lo antes posible. #line:0bd6289
 title: FoundFlower
 ---
 //encuentra loto, lo toma
+<<play_sfx 8>>
 Neom: ¡Esta es! Lo guardare en mi bolsa espacial. Ahora regresare al pasado. #line:0e17aeb 
 
 //regresa al pasado undiendo en el reloj
@@ -155,15 +164,16 @@ Neom: Ya la tengo. #line:0d4cc25
 Mago: ...¿Es enserio? No han pasado ni dos minutos. #line:06e442c 
 
 Neom: Pues para mi fueron unas cuantas horas... Aquí tienes. #line:0c6c4f6 
-
+<<play_sfx 7>>
 //Announcement Mission complete!
-//Anuncio: Mision completada.
-
+Anuncio: Mision completada.
+<<play_sfx 10>>
 
 Mago: Necesitare otros cuantos días para recuperarme, pero no siento mucho el dolor ahora. #line:029d632 
 Mago: Me has salvado la vida. Toma esto, te la mereces. #line:092f8a3 
 
 //Mago le da la carta. Carta adquired!
+<<play_sfx 0>>
 Anuncio: ¡Carta adquerida! El Mago. #line:013437e 
 <<give_card 1>>
 
@@ -177,6 +187,7 @@ Neom: Podría tratar de encontrarlo en el futuro... No tendría su reino y serí
 Mago: Si piensas volver al futuro, llevate esto. No es mucho pero dicen que es un tesoro de la antigua Tierra. #line:01425f2 
 Mago: Puede que tu sí le encuentres el valor. #line:02cafe3 
 //strange sword adquired!!
+<<play_sfx 14>>
 <<give_sword>>
 Neom: Gracias #line:0696111 
 Mago: Suerte en tu busqueda, viajero del tiempo. #line:07080d0 
@@ -189,6 +200,7 @@ Mago: Suerte en tu busqueda, viajero del tiempo. #line:07080d0
 ===
 title: Mission_3
 ---
+<<play_music 5>>
 <<can_jump false>>
 //Mision 3- El Emperador
 //descripcion: Busca al Emperador y su carta en el futuro
@@ -225,16 +237,17 @@ Emperador: ¡Nunca te la dare! #line:0878917
 ===
 title: EmperorBossDeath
 ---
-
+<<play_sfx 3>>
 //boss fight
 <<can_jump false>>
 //Neom rompe la bola de cristal
 Anuncio: La bola de cristal espacial reacciono con la arma reliquia #line:064ce6e 
+<<play_sfx 0>>
 <<give_card 2>>
 //sword upgrade
 Anuncio: ¡Carta adquerida! El Emperador. #line:0b86c02 
 Anuncio: Mision completada. #line:02e3f5f 
-
+<<play_sfx 10>>
 //mission complete
 Neom: Y ahora... #line:0f957bb 
 Neom: No era mi intencion acabar con el, pero mi vida estaba en juego. #line:0f5e29a 
@@ -249,12 +262,12 @@ title: Mission_4
 <<can_jump false>>
 //Mission 4 - La Muerte
 //descripcion: Busca a la Muerte y su carta.
-
 Neom: ... #line:021033a 
 Muerte: ¿Quien se atreve a pisar mis tierras? #line:0eabd6d 
 Neom: Soy un viajero- #line:0b4df80 
 Muerte: Un viajero que busca a la muerte por voluntad propia. No eres el primero, ni el ultimo. #line:06974c6 
 Neom: ¡Espera! #line:057345b 
+<<play_music 6>>
 
 //boss fight
 <<can_jump true>>
@@ -280,10 +293,11 @@ Muerte: Ha ha ha... Confío en tus palabras. Aquí tienes. #line:091fb9c
 
 
 //card adquired!!!
+<<play_sfx 0>>
 <<give_card 3>>
 Anuncio: ¡Carta adquerida! La Muerte. #line:02dd837 
 Anuncio: Mision completada. #line:0cffc3a 
-
+<<play_sfx 10>>
 Neom: Solo dos mas.... #line:0b8e3cd 
 Muerte: Eres un viajero en el tiempo ¿No? Es como si todo estuviera planeado para ti. #line:068fdba 
 Muerte: Las dos ultimas cartas estan en Saud, pero en el Santo Bosque.  #line:0719f52 
@@ -294,6 +308,7 @@ Neom: Ir al pasado... #line:01207b2
 Neom: Pero... ¿Pelear contra el mundo? ¿Acaso eso no es imposible? #line:04962bb 
 Muerte: Puede que seas el elegido, puede que no. Te ayudo, solo como ultimo recurso si tu vida corre peligro. #line:05d0ff0 
 // roca extrana adquired!!
+<<play_sfx 10>>  
 Neom: Gracias... Bueno, seguire en mi viaje. #line:05bb9ef 
 Muerte: Espero no tener que irte a buscar por ahora. #line:0fe7083 
 //Neom uses clock to go to the past
@@ -304,9 +319,10 @@ title: Mission_5
 ---
 //Mision 5 - El Mundo
 //descripcion: Encuentra la carta del Mundo.
+<<play_music 7>>
 <<can_jump false>>
 Neom: El Santo Bosque... Es este... #line:0700956 
-Neom: Tengo a buscar una entrada al Mundo... #line:07a9e36 
+Neom: Tengo a buscar una entrada al Mundo... #line:07a9e36
 //walks around
 //enters the forest
 //the world wakes up
@@ -318,6 +334,7 @@ Neom: Busco tu carta, la carta de El Mundo. #line:0589118
 Mundo: La ignorancia es el mayor pecado de la humanidad.  #line:0a9b1e7 
 Mundo: Regresa, a menos que quieras pelear contra mi. #line:06e30d9 
 Neom: Solo regresare con la carta. #line:0868ceb 
+<<play_music 9>>
 ===
 title: MiddleFight
 ---
@@ -341,9 +358,11 @@ Neom: De todas formas, ya no hay vuelta atras #line:0ad1f70
 // se acerca al mundo
 //card adquired!!!
 <<give_card 4>>
+<<play_sfx 0>>  
 Anuncio: Carta adquerida! El Mundo. #line:0d40f61 
 
 //mission finished
+<<play_sfx 10>>  
 Anuncio: Mision completa, #line:02553c4 
 
 
@@ -353,7 +372,7 @@ Neom: ¿Trataba de proteger la carta? Buscare mas a fondo. #line:040ee74
 ===
 title: Mission_6
 ---
-
+<<play_music 8>>
 //Mision 6- El Sol
 //descripcion: Encuentra la carta de El Sol.
 
@@ -376,12 +395,14 @@ Neom: Es hora... #line:03471f1
 <<change_sun>>
 //Card adquired!!!
 <<give_card 5>>
+<<play_sfx 0>>  
 Anuncio: Carta adquerida! El Sol. #line:0f0d2db 
 
 Anuncio: Las partículas del Sol reaccionaron con el reloj.  #line:0b6efd3 
 
 Neom: El reloj... ¿Podre volver al presente? #line:0576d13 
 // Neom saca su reloj y oprime ir al presente. Everything fades to black.
+<<play_sfx 10>>  
 <<show_clock true>>
 <<wait  4>>
 <<fade_camera true>>
@@ -398,15 +419,18 @@ Neom: Ya es hora... La baraja completa... #line:009896d
 Neom: Ahora la ultima carta... la que siempre he tenido. #line:0d2771d 
 Neom: "El Bufon" #line:09a9b13 
 <<give_card 6>>
+<<play_sfx 0>>  
 <<show_cards>>
 Neom: "Quien va perdido y sin rumbo" #line:0b611d9 
 Neom: "Una criatura que parece no vivir en la realidad" #line:09ce8bb 
 Neom: La carta que nunca me abandono por mas de 200 anos. #line:0bffd9b 
 Neom: Ahora... ¿Que secretos esconde esta realidad? #line:0e9a3a6 
+<<play_sfx 3>>  
 <<fade_camera true>>
 ===
 title: Ending
 ---
+<<play_music 0>>
 //cards fuses and everything goes black
 //dialogue of the sword starts playing
 <<player_ending>>

@@ -8,7 +8,7 @@ public class WorldBoss : MonoBehaviour
     public Player player;
     private CircleCollider2D wakeCollider;    
     private bool isAwake = false;
-    private int health = 200;
+    private int health = 400;
     public WorldAttackBehavior projectilePrefab;
     public float delay = 4.0f;
     private bool canAttack = true;

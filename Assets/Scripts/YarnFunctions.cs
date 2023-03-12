@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
+using DigitalRuby.SoundManagerNamespace;
 
 public class YarnFunctions : MonoBehaviour {
     private FadeInScenes fader;
@@ -36,6 +37,14 @@ public class YarnFunctions : MonoBehaviour {
         dialogueRunner.AddCommandHandler<bool>(
             "can_jump",     // the name of the command
             CanJump // the method to run
+        );
+        dialogueRunner.AddCommandHandler<int>(
+            "play_music",     // the name of the command
+            MusicPlayer.Instance.PlayMusic // the method to run
+        );
+        dialogueRunner.AddCommandHandler<int>(
+            "play_sfx",     // the name of the command
+            MusicPlayer.Instance.PlaySound // the method to run
         );
         dialogueRunner.AddCommandHandler("change_sun", ChangeSun);
         dialogueRunner.AddCommandHandler("show_cards", showCards);

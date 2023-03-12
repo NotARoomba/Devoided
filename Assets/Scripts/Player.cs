@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
+using DigitalRuby.SoundManagerNamespace;
 
 public class Player : MonoBehaviour
 {
@@ -71,14 +72,14 @@ public class Player : MonoBehaviour
          else if (Input.GetKey ("a")) {
              pos.x -= speed * Time.deltaTime;
          } 
-         if (Input.GetKey("e")) {
-            if (canDialogue) {
-                foreach (Collider2D i in Physics2D.OverlapCircleAll(gameObject.transform.position, 0.2f)) {   
-            if (i.gameObject.tag == "Talkable")
-                i.gameObject.SendMessage("startDialogue");
-        }
-            }
-         }
+        //  if (Input.GetKey("e")) {
+        //     if (canDialogue) {
+        //         foreach (Collider2D i in Physics2D.OverlapCircleAll(gameObject.transform.position, 0.2f)) {   
+        //     if (i.gameObject.tag == "Talkable")
+        //         i.gameObject.SendMessage("startDialogue");
+        // }
+        //     }
+        //  }
         }
          if (in2D) {
             if (Input.GetKey("space") && canJump) {
@@ -89,6 +90,7 @@ public class Player : MonoBehaviour
             }
         }
             if(Input.GetMouseButton(0) && hasSword) {
+                MusicPlayer.Instance.PlaySound(13);
                 weapon.attack();         
            }
          transform.position += pos;
@@ -122,6 +124,7 @@ public class Player : MonoBehaviour
         jumpBlocked = false;
     }
     public void hitPlayer(int damage) {
+        MusicPlayer.Instance.PlaySound(6);
         health -= damage; 
         healthBar.SetHealth(health);
         StartCoroutine(flashColor(new Color(1, 0, 0, 0.7f)));
