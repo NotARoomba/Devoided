@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
     public Inventory inventory;
     public GameObject cards;
     public DialogueRunner dialogue;
+    public TextMesh gameOver;
     void Start() {
         health = PlayerVars.Instance.health;
         hasSword = PlayerVars.Instance.hasSword;
@@ -45,9 +46,6 @@ public class Player : MonoBehaviour
         healthBar.SetHealth(health);
     }
      void Update () {
-        if (health <= 0) {
-            Debug.Log("PLAYER DEAD");
-        }
         PlayerVars.Instance.SetPlayerVariables(health, hasSword, hasFlower, hasMagician, hasEmperor, swordUpgrade, hasDeath, hasSun, hasWorld, hasFool);
          Vector3 pos = Vector3.zero;
          weapon.gameObject.SetActive(hasSword);
